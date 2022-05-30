@@ -1,11 +1,9 @@
-# README
+Produce in Season
+A simple app to help keep track of produce season.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
+* Ruby version: 3.0.3
+* Rails version: 7.0.3
+* Database: Postgres
 
 * System dependencies
 
