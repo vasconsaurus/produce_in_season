@@ -13,6 +13,6 @@ RSpec.describe ItemSeason, type: :model do
   it 'belongs to many produce_items'
 
   describe 'Associations' do
-    it { should belongs_to(:produce_item).without_validating_presence }
+    it { should belong_to(:produce_item).without_validating_presence }
   end
 end
