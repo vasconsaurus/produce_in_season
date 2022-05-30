@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  month_index: 1
+  country_code: MyString
+  produce_item: one
+
+two:
+  month_index: 1
+  country_code: MyString
+  produce_item: two
