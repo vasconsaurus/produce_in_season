@@ -3,7 +3,7 @@ class CreateItemSeasons < ActiveRecord::Migration[7.0]
     create_table :item_seasons do |t|
       t.integer :month_index, null: false
       t.string :country_code, null: false
-      t.references :produce_item, null: false, foreign_key: true
+      t.belongs_to :produce_item, null: false, foreign_key: true
 
       t.timestamps
     end
