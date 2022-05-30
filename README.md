@@ -1,5 +1,5 @@
-Produce in Season
-A simple app to help keep track of produce season.
+<h1> Produce in Season </h1>
+<h5> A simple app to help keep track of produce season. </h5>
 
 * Ruby version: 3.0.3
 * Rails version: 7.0.3
