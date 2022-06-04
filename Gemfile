@@ -64,7 +64,7 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem 'spring'
-  gem 'brakeman', '~> 5.2.3'
+  gem 'brakeman', '~> 5.2.3', require: false
 end
 
 group :test do
