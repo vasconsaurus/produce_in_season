@@ -64,6 +64,7 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem 'spring'
+  gem 'strong_migrations', '~> 1.0.0'
 end
 
 group :test do
