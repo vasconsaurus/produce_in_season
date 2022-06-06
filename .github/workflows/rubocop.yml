@@ -1,7 +1,7 @@
 name: "Linting: Rubocop"
 on: [push]
 env:
-  RAILS_ENV: development
+  RAILS_ENV: test
 jobs:
   rubocop:
     runs-on: ubuntu-latest
@@ -11,6 +11,6 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-          cache-version: 1
+          cache-version: 3
       - name: Run Rubocop
         run: bundle exec rubocop
