@@ -6,3 +6,16 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+require 'csv'
+
+CSV.foreach(Rails.root.join('lib/produce.csv'), headers: true) do |row|
+  ProduceItem.create({
+    name: row[0],
+    category: row[1]
+  })
+  ItemSeason.create({
+    country_code: row[2],
+    month_index: row[3],
+    produce_item_id: produce_item.id
+  })
+end
