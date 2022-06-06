@@ -1,0 +1,535 @@
+name,category,country_code,month_index
+abacaxi havaí,fruit,BR,1
+abacate fucks/geada,fruit,BR,1
+carambola,fruit,BR,1
+cupuaçu,fruit,BR,1
+figo,fruit,BR,1
+goiaba,fruit,BR,1
+graviola,fruit,BR,1
+jaca,fruit,BR,1
+laranja pera,fruit,BR,1
+limão taiti,fruit,BR,1
+mamão formosa,fruit,BR,1
+manga palmer,fruit,BR,1
+maracujá doce,fruit,BR,1
+marmelo,fruit,BR,1
+nectarina estrangeira,fruit,BR,1
+pêssego estrangeiro,fruit,BR,1
+pinha,fruit,BR,1
+pitaia,fruit,BR,1
+sapoti,fruit,BR,1
+abobrinha brasileira,vegetable,BR,1
+berinjela japonesa,vegetable,BR,1
+beterraba,vegetable,BR,1
+jiló,vegetable,BR,1
+pimenta cambuci,vegetable,BR,1
+pimentão verde,vegetable,BR,1
+quiabo,vegetable,BR,1
+tomate,vegetable,BR,1
+tomate salada,vegetable,BR,1
+cebola nacional,vegetable,BR,1
+cebola sc,vegetable,BR,1
+alface,green,BR,1
+gengibre com folha,green,BR,1
+salsa,green,BR,1
+abacate fucks/geada,fruit,BR,2
+abacaxi havaí,fruit,BR,2
+ameixa estrangeira,fruit,BR,2
+carambola,fruit,BR,2
+figo,fruit,BR,2
+goiaba,fruit,BR,2
+laranja pera,fruit,BR,2
+limão taiti,fruit,BR,2
+maçã nacional gala,fruit,BR,2
+mamão formosa,fruit,BR,2
+manga palmer,fruit,BR,2
+melancia,fruit,BR,2
+pêra nacional,fruit,BR,2
+pêssego estrangeiro,fruit,BR,2
+pinha,fruit,BR,2
+pitaia,fruit,BR,2
+seriguela,fruit,BR,2
+uva rubi,fruit,BR,2
+uva estrangeira,fruit,BR,2
+abóbora d'água,vegetable,BR,2
+abóbora seca,vegetable,BR,2
+abobrinha brasileira,vegetable,BR,2
+berinjela japonesa,vegetable,BR,2
+beterraba,vegetable,BR,2
+pimenta cambuci,vegetable,BR,2
+pimenta vermelha,vegetable,BR,2
+quiabo,vegetable,BR,2
+tomate,vegetable,BR,2
+cebola nacional,vegetable,BR,2
+cebola sc,vegetable,BR,2
+alface,green,BR,2
+chicória,green,BR,2
+gengibre com folha,green,BR,2
+abacate fortuna/quintal,fruit,BR,3
+abiu,fruit,BR,3
+ameixa estrangeira,fruit,BR,3
+banana maçã,fruit,BR,3
+banana nanica,fruit,BR,3
+caqui,fruit,BR,3
+cidra,fruit,BR,3
+figo,fruit,BR,3
+goiaba,fruit,BR,3
+kiwi nacional,fruit,BR,3
+laranja pera,fruit,BR,3
+limão taiti,fruit,BR,3
+maçã nacional gala,fruit,BR,3
+mamão formosa,fruit,BR,3
+nectarina estrangeira,fruit,BR,3
+pêra nacional,fruit,BR,3
+pêssego estrangeiro,fruit,BR,3
+tamarindo,fruit,BR,3
+tangerina cravo,fruit,BR,3
+uva rubi,fruit,BR,3
+uva estrangeira,fruit,BR,3
+abóbora d'água,vegetable,BR,3
+abóbora japonesa,vegetable,BR,3
+abóbora seca,vegetable,BR,3
+abobrinha brasileira,vegetable,BR,3
+batata doce amarela,vegetable,BR,3
+berinjela japonesa,vegetable,BR,3
+beterraba,vegetable,BR,3
+pepino caipira,vegetable,BR,3
+pepino comum,vegetable,BR,3
+pimenta cambuci,vegetable,BR,3
+pimenta vermelha,vegetable,BR,3
+alho estrangeiro,vegetable,BR,3
+amendoim sem casca,vegetable,BR,3
+cebola nacional,vegetable,BR,3
+cebola sc,vegetable,BR,3
+acelga,green,BR,3
+alface,green,BR,3
+almeirão,green,BR,3
+catalonha,green,BR,3
+chicória,green,BR,3
+escarola,green,BR,3
+espinafre,green,BR,3
+gengibre com folha,green,BR,3
+louro,green,BR,3
+mostarda,green,BR,3
+nabo,green,BR,3
+orégano,green,BR,3
+repolho,green,BR,3
+rúcula,green,BR,3
+salsa,green,BR,3
+abacate fortuna/quintal,fruit,BR,4
+abiu,fruit,BR,4
+ameixa estrangeira,fruit,BR,4
+atemóia,fruit,BR,4
+banana maçã,fruit,BR,4
+banana nanica,fruit,BR,4
+caqui,fruit,BR,4
+figo,fruit,BR,4
+graviola,fruit,BR,4
+kiwi nacional,fruit,BR,4
+lima da pérsia,fruit,BR,4
+limão taiti,fruit,BR,4
+maçã nacional gala,fruit,BR,4
+mamão formosa,fruit,BR,4
+mangostão,fruit,BR,4
+maracujá doce,fruit,BR,4
+pêra estrangeira,fruit,BR,4
+pitaia,fruit,BR,4
+tangerina cravo,fruit,BR,4
+uva rubi,fruit,BR,4
+uva estrangeira,fruit,BR,4
+abóbora d'água,vegetable,BR,4
+abóbora japonesa,vegetable,BR,4
+abóbora seca,vegetable,BR,4
+abobrinha brasileira,vegetable,BR,4
+batata doce amarela,vegetable,BR,4
+berinjela japonesa,vegetable,BR,4
+cará,vegetable,BR,4
+chuchu,vegetable,BR,4
+jiló,vegetable,BR,4
+mandioca,vegetable,BR,4
+pepino caipira,vegetable,BR,4
+pepino comum,vegetable,BR,4
+tomate,vegetable,BR,4
+tomate salada,vegetable,BR,4
+alho estrangeiro,vegetable,BR,4
+acelga,green,BR,4
+chicória,green,BR,4
+nabo,green,BR,4
+repolho,green,BR,4
+rúcula,green,BR,4
+salsa,green,BR,4
+abacate fortuna/quintal,fruit,BR,5
+atemóia,fruit,BR,5
+banana maçã,fruit,BR,5
+banana nanica,fruit,BR,5
+caqui,fruit,BR,5
+carambola,fruit,BR,5
+graviola,fruit,BR,5
+kiwi nacional,fruit,BR,5
+laranja baia,fruit,BR,5
+lima da pérsia,fruit,BR,5
+maçã nacional gala,fruit,BR,5
+mamão formosa,fruit,BR,5
+mangostão,fruit,BR,5
+pêra estrangeira,fruit,BR,5
+tangerina cravo,fruit,BR,5
+tangerina poncan,fruit,BR,5
+uva estrangeira,fruit,BR,5
+abóbora japonesa,vegetable,BR,5
+abóbora seca,vegetable,BR,5
+abobrinha brasileira,vegetable,BR,5
+batata doce amarela,vegetable,BR,5
+cará,vegetable,BR,5
+chuchu,vegetable,BR,5
+ervilha torta,vegetable,BR,5
+gengibre,vegetable,BR,5
+inhame,vegetable,BR,5
+jiló,vegetable,BR,5
+mandioca,vegetable,BR,5
+mandioquinha,vegetable,BR,5
+alho estrangeiro,vegetable,BR,5
+amendoim sem casca,vegetable,BR,5
+canjica,vegetable,BR,5
+cebola estrangeira,vegetable,BR,5
+agrião,green,BR,5
+chicória,green,BR,5
+espinafre,green,BR,5
+louro,green,BR,5
+moiashi,green,BR,5
+mostarda,green,BR,5
+nabo,green,BR,5
+rabanete,green,BR,5
+repolho,green,BR,5
+salsa,green,BR,5
+abacate fortuna/quintal,fruit,BR,6
+atemóia,fruit,BR,6
+carambola,fruit,BR,6
+cupuaçu,fruit,BR,6
+kiwi nacional,fruit,BR,6
+laranja baia,fruit,BR,6
+mangostão,fruit,BR,6
+mexerica,fruit,BR,6
+quincam,fruit,BR,6
+tangerina poncan,fruit,BR,6
+abóbora japonesa,vegetable,BR,6
+abóbora paulista,vegetable,BR,6
+abóbora seca,vegetable,BR,6
+abobrinha brasileira,vegetable,BR,6
+batata doce amarela,vegetable,BR,6
+batata doce rosada,vegetable,BR,6
+cará,vegetable,BR,6
+ervilha torta,vegetable,BR,6
+inhame,vegetable,BR,6
+mandioca,vegetable,BR,6
+mandioquinha,vegetable,BR,6
+amendoim sem casca,vegetable,BR,6
+amendoim com casca,vegetable,BR,6
+cebola estrangeira,vegetable,BR,6
+pinhão,vegetable,BR,6
+agrião,green,BR,6
+espinafre,green,BR,6
+louro,green,BR,6
+rabanete,green,BR,6
+salsa,green,BR,6
+abacate fortuna/quintal,fruit,BR,7
+atemóia,fruit,BR,7
+carambola,fruit,BR,7
+cupuaçu,fruit,BR,7
+laranja baia,fruit,BR,7
+laranja lima,fruit,BR,7
+maracujá doce,fruit,BR,7
+mexerica,fruit,BR,7
+morango,fruit,BR,7
+quincam,fruit,BR,7
+tangerina poncan,fruit,BR,7
+abóbora japonesa,vegetable,BR,7
+batata doce amarela,vegetable,BR,7
+batata doce rosada,vegetable,BR,7
+cará,vegetable,BR,7
+ervilha torta,vegetable,BR,7
+ervilha comum,vegetable,BR,7
+inhame,vegetable,BR,7
+mandioca,vegetable,BR,7
+mandioquinha,vegetable,BR,7
+alho nacional,vegetable,BR,7
+amendoim sem casca,vegetable,BR,7
+cebola nacional,vegetable,BR,7
+cebola mg,vegetable,BR,7
+agrião,green,BR,7
+brócolis,green,BR,7
+couve,green,BR,7
+couve-flor,green,BR,7
+hortelã,green,BR,7
+louro,green,BR,7
+milho verde,green,BR,7
+moiashi,green,BR,7
+mostarda,green,BR,7
+nabo,green,BR,7
+rabanete,green,BR,7
+abacate fortuna/quintal,fruit,BR,8
+abiu,fruit,BR,8
+atemóia,fruit,BR,8
+carambola,fruit,BR,8
+kiwi estrangeiro,fruit,BR,8
+laranja baia,fruit,BR,8
+laranja lima,fruit,BR,8
+laranja pera,fruit,BR,8
+lima da pérsia,fruit,BR,8
+maçã nacional fuji,fruit,BR,8
+maçã estrangeira red delicious,fruit,BR,8
+mamão formosa,fruit,BR,8
+maracujá doce,fruit,BR,8
+maracujá azedo,fruit,BR,8
+mexerica,fruit,BR,8
+morango,fruit,BR,8
+quincam,fruit,BR,8
+sapoti,fruit,BR,8
+tangerina murcot,fruit,BR,8
+abóbora japonesa,vegetable,BR,8
+abobrinha brasileira,vegetable,BR,8
+abobrinha italiana,vegetable,BR,8
+batata doce amarela,vegetable,BR,8
+berinjela conserva,vegetable,BR,8
+cará,vegetable,BR,8
+ervilha comum,vegetable,BR,8
+ervilha torta,vegetable,BR,8
+inhame,vegetable,BR,8
+mandioca,vegetable,BR,8
+mandioquinha,vegetable,BR,8
+alho nacional,vegetable,BR,8
+amendoim sem casca,vegetable,BR,8
+cebola nacional,vegetable,BR,8
+cebola mg,vegetable,BR,8
+cebola sp,vegetable,BR,8
+agrião,green,BR,8
+beterraba com folhas,green,BR,8
+brócolis,green,BR,8
+catalonha,green,BR,8
+cenoura com folhas,green,BR,8
+coentro,green,BR,8
+couve,green,BR,8
+couve de bruxelas,green,BR,8
+couve-flor,green,BR,8
+erva-doce,green,BR,8
+espinafre,green,BR,8
+hortelã,green,BR,8
+louro,green,BR,8
+moiashi,green,BR,8
+mostarda,green,BR,8
+orégano,green,BR,8
+rabanate,green,BR,8
+abacate breda/margarida,fruit,BR,9
+abiu,fruit,BR,9
+acerola,fruit,BR,9
+banana maçã,fruit,BR,9
+banana prata,fruit,BR,9
+caju,fruit,BR,9
+graviola,fruit,BR,9
+jabuticaba,fruit,BR,9
+kiwi estrangeiro,fruit,BR,9
+laranja lima,fruit,BR,9
+laranja pera,fruit,BR,9
+maçã nacional fui,fruit,BR,9
+maçã estrangeira red delicious,fruit,BR,9
+mamão formosa,fruit,BR,9
+mamão havaí,fruit,BR,9
+maracujá azedo,fruit,BR,9
+mexerica,fruit,BR,9
+nêspera,fruit,BR,9
+sapoti,fruit,BR,9
+tamarindo,fruit,BR,9
+tangerina murcot,fruit,BR,9
+abóbora paulista,vegetable,BR,9
+abobrinha italiana,vegetable,BR,9
+alcachofra,vegetable,BR,9
+berinjela conserva,vegetable,BR,9
+cará,vegetable,BR,9
+chuchu,vegetable,BR,9
+ervilha comum,vegetable,BR,9
+ervilha torta,vegetable,BR,9
+fava,vegetable,BR,9
+inhame,vegetable,BR,9
+jiló,vegetable,BR,9
+mandioca,vegetable,BR,9
+alho nacional,vegetable,BR,9
+cebola nacional,vegetable,BR,9
+cebola mg,vegetable,BR,9
+cebola sp,vegetable,BR,9
+agrião,green,BR,9
+almeirão,green,BR,9
+aspargos,green,BR,9
+beterraba com folhas,green,BR,9
+brócolis,green,BR,9
+catalonha,green,BR,9
+cenoura com folhas,green,BR,9
+coentro,green,BR,9
+couve,green,BR,9
+couve de bruxelas,green,BR,9
+couve-flor,green,BR,9
+erva-doce,green,BR,9
+espinafre,green,BR,9
+folha de uva,green,BR,9
+hortelã,green,BR,9
+louro,green,BR,9
+moiashi,green,BR,9
+mostarda,green,BR,9
+palmito,green,BR,9
+rabanete,green,BR,9
+abacate breda/margarida,fruit,BR,10
+acerola,fruit,BR,10
+banana prata,fruit,BR,10
+caju,fruit,BR,10
+laranja lima,fruit,BR,10
+laranja pera,fruit,BR,10
+lima da pérsia,fruit,BR,10
+maçã nacional fuji,fruit,BR,10
+maçã estrangeira red delicious,fruit,BR,10
+mamão havaí,fruit,BR,10
+maracujá azedo,fruit,BR,10
+nectarina nacional,fruit,BR,10
+nêspera,fruit,BR,10
+nozes,fruit,BR,10
+physalis,fruit,BR,10
+tangerina murcot,fruit,BR,10
+uva thompson,fruit,BR,10
+abóbora japonesa,vegetable,BR,10
+abobrinha italiana,vegetable,BR,10
+alcachofra,vegetable,BR,10
+beterraba,vegetable,BR,10
+cará,vegetable,BR,10
+chuchu,vegetable,BR,10
+ervilha torta,vegetable,BR,10
+inhame,vegetable,BR,10
+mandioca,vegetable,BR,10
+maxixe,vegetable,BR,10
+pepino japonês,vegetable,BR,10
+tomate caqui,vegetable,BR,10
+alho nacional,vegetable,BR,10
+cebola nacional,vegetable,BR,10
+cebola mg,vegetable,BR,10
+cebola sp,vegetable,BR,10
+agrião,green,BR,10
+almeirão,green,BR,10
+beterraba com folhas,green,BR,10
+brócolis,green,BR,10
+catalonha,green,BR,10
+cenoura com folhas,green,BR,10
+couve de bruxelas,green,BR,10
+couve-flor,green,BR,10
+erva-doce,green,BR,10
+espinafre,green,BR,10
+folha de uva,green,BR,10
+gobo,green,BR,10
+louro,green,BR,10
+manjericão,green,BR,10
+mostarda,green,BR,10
+nabo,green,BR,10
+rabanete,green,BR,10
+rúcula,green,BR,10
+abacate breda/margarida,fruit,BR,11
+abacaxi pérola,fruit,BR,11
+acerola,fruit,BR,11
+amêndoa,fruit,BR,11
+amora,fruit,BR,11
+avelã,fruit,BR,11
+banana prata,fruit,BR,11
+castanha nacional,fruit,BR,11
+coco verde,fruit,BR,11
+graviola,fruit,BR,11
+jaca,fruit,BR,11
+laranja pera,fruit,BR,11
+lima da pérsia,fruit,BR,11
+maçã nacional fuji,fruit,BR,11
+maçã estrangeira red delicious,fruit,BR,11
+mamão havaí,fruit,BR,11
+manga haden,fruit,BR,11
+manga palmer,fruit,BR,11
+manga tommy,fruit,BR,11
+maracujá doce,fruit,BR,11
+melão amarelo,fruit,BR,11
+nectarina nacional,fruit,BR,11
+nozes,fruit,BR,11
+sapoti,fruit,BR,11
+tangerina murcot,fruit,BR,11
+uva thompson,fruit,BR,11
+abobrinha italiana,vegetable,BR,11
+berinjela comum,vegetable,BR,11
+berinjela japonesa,vegetable,BR,11
+maxixe,vegetable,BR,11
+pepino japonês,vegetable,BR,11
+pepino caipira,vegetable,BR,11
+taquenoco,vegetable,BR,11
+tomate caqui,vegetable,BR,11
+cebola nacional,vegetable,BR,11
+cebola sp,vegetable,BR,11
+almeirão,green,BR,11
+aspargos,green,BR,11
+beterraba com folhas,green,BR,11
+brócolis,green,BR,11
+cenoura com folhas,green,BR,11
+couve de bruxelas,green,BR,11
+erva-doce,green,BR,11
+espinafre,green,BR,11
+folha de uva,green,BR,11
+gobo,green,BR,11
+hortelã,green,BR,11
+manjericão,green,BR,11
+mostarda,green,BR,11
+nabo,green,BR,11
+palmito,green,BR,11
+rabanete,green,BR,11
+abacaxi havaí,fruit,BR,12
+abacaxi pérola,fruit,BR,12
+acerola,fruit,BR,12
+ameixa nacional,fruit,BR,12
+amêndoa,fruit,BR,12
+amora,fruit,BR,12
+castanha nacional,fruit,BR,12
+cereja estrangeira,fruit,BR,12
+castanha estrangeira,fruit,BR,12
+coco verde,fruit,BR,12
+damasco estrangeiro,fruit,BR,12
+figo,fruit,BR,12
+framboesa,fruit,BR,12
+graviola,fruit,BR,12
+kiwi estrangeiro,fruit,BR,12
+laranja pera,fruit,BR,12
+lichia,fruit,BR,12
+limão taiti,fruit,BR,12
+maçã nacional fuji,fruit,BR,12
+maçã estrangeira red delicious,fruit,BR,12
+maçã estrangeira granny smith,fruit,BR,12
+manga haden,fruit,BR,12
+manga palmer,fruit,BR,12
+manga tommy,fruit,BR,12
+mangostão,fruit,BR,12
+maracujá doce,fruit,BR,12
+melancia,fruit,BR,12
+melão amarelo,fruit,BR,12
+nectarina nacional,fruit,BR,12
+nectarina estrangeira,fruit,BR,12
+nozes,fruit,BR,12
+pêssego nacional,fruit,BR,12
+physalis,fruit,BR,12
+romã,fruit,BR,12
+tâmara,fruit,BR,12
+uva itália,fruit,BR,12
+uva niagara,fruit,BR,12
+uva rubi,fruit,BR,12
+pimentão vermelho,vegetable,BR,12
+tomate caqui,vegetable,BR,12
+tomate,vegetable,BR,12
+tomate salada,vegetable,BR,12
+vagem,vegetable,BR,12
+erva-doce,green,BR,12
+folha de uva,green,BR,12
+gobo,green,BR,12
+hortelã,green,BR,12
+manjericão,green,BR,12
+mostarda,green,BR,12
+nabo,green,BR,12
+palmito,green,BR,12
+rabanete,green,BR,12
+rúcula,green,BR,12
+salsa,green,BR,12
+salsão,green,BR,12
