@@ -57,6 +57,7 @@ group :development, :test do
   gem 'shoulda-matchers', '~> 5.0'
 
   gem 'bullet', '~> 7.0.2'
+  gem 'dotenv-rails', '~> 2.7.6'
 end
 
 group :development do
@@ -68,11 +69,11 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem 'spring'
-  gem 'strong_migrations', '~> 1.0.0'
   gem 'brakeman', '~> 5.2.3', require: false
   gem 'rubocop', '~> 1.30', require: false
   gem 'rubocop-rails', '~> 2.14.2', require: false
   gem 'rubocop-rspec', '~> 2.11.1', require: false
+  gem 'strong_migrations', '~> 1.0.0'
 end
 
 group :test do
