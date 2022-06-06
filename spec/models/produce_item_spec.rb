@@ -8,7 +8,6 @@ RSpec.describe ProduceItem, type: :model do
   let(:name) { 'Banana' }
   let(:category) { 'fruta' }
 
-
   it { expect(subject).to be_valid }
 
   context 'when there is no name' do
