@@ -1,0 +1,14 @@
+name: "Security: Brakeman"
+on: [push]
+jobs:
+  brakeman:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+          cache-version: 1
+      - name: Run Brakeman
+        run: bundle exec brakeman
