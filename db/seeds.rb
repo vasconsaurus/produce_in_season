@@ -15,7 +15,7 @@ ItemSeason.destroy_all
 id_arr = []
 
 CSV.foreach(Rails.root.join('lib/produce.csv'), headers: true) do |row|
-  ProduceItem.create({
+  produce_item = ProduceItem.create({
     name: row[0],
     category: row[1]
   })
