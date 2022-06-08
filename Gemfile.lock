@@ -249,8 +249,8 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
-    uniform_notifier (1.16.0)
     unicode-display_width (2.1.0)
+    uniform_notifier (1.16.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -273,8 +273,8 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
-  bullet (~> 7.0.2)
   brakeman (~> 5.2.3)
+  bullet (~> 7.0.2)
   capybara
   debug
   importmap-rails
