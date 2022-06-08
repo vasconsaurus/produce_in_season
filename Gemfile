@@ -57,6 +57,7 @@ group :development, :test do
   gem 'shoulda-matchers', '~> 5.0'
 
   gem 'bullet', '~> 7.0.2'
+  gem 'strong_migrations', '~> 1.0.0'
 end
 
 group :development do
