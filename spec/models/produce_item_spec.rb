@@ -6,7 +6,7 @@ RSpec.describe ProduceItem, type: :model do
   subject { described_class.new(name: name, category: category) }
 
   let(:name) { 'Banana' }
-  let(:category) { 'fruta' }
+  let(:category) { 'fruit' }
 
   it { expect(subject).to be_valid }
 
