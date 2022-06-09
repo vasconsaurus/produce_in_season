@@ -8,11 +8,11 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 require 'csv'
+require 'database_cleaner/active_record'
 
-ProduceItem.destroy_all
-ItemSeason.destroy_all
+DatabaseCleaner.strategy = :truncation
 
-id_arr = []
+DatabaseCleaner.clean
 
 CSV.foreach(Rails.root.join('lib/produce.csv'), headers: true) do |row|
   ItemSeason.create(
