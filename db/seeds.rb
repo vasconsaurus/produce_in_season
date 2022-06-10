@@ -15,7 +15,7 @@ DatabaseCleaner.strategy = :truncation
 DatabaseCleaner.clean
 
 CSV.foreach(Rails.root.join('lib/produce.csv'), headers: true) do |row|
-  item = ProduceItem.create!(name: row[0], category: row[1])
+  item = ProduceItem.find_or_create_by!(name: row[0], category: row[1])
   ItemSeason.create!(
     country_code: row[2],
     month_index: row[3],
