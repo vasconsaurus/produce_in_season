@@ -9,5 +9,10 @@ Layout/LineLength:
 Metrics/MethodLength:
   Max: 24
 
+Metrics/BlockLength:
+  Max: 24
+  Exclude:
+    - 'config/environments/*'
+
 Style/Documentation:
   Enabled: false
