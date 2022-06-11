@@ -1,22 +1,19 @@
-<h1> Produce in Season </h1>
-<h5> A simple app to help keep track of produce season. </h5>
+# Produce in Season
 
-* Ruby version: 3.0.3
-* Rails version: 7.0.3
-* Database: Postgres
+A simple app to help keep track of produce season.
 
-* System dependencies
+## Setup
 
-* Configuration
+1. `bundle`
+2. `cp env.sample .env`
+3. Fill `.env` with your settings
+4. `rails db:setup`
 
-* Database creation
+## Running the project
 
-* Database initialization
+`bundle exec rails s`
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Running tests
 
-* Deployment instructions
-
-* ...
+`bundle exec rspec`
