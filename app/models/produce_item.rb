@@ -6,6 +6,6 @@ class ProduceItem < ApplicationRecord
 
   has_many :item_seasons
 
-  validates :name, presence: true, uniqueness: true
+  validates :name, presence: true
   validates :category, presence: true
 end
