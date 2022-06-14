@@ -5,6 +5,8 @@ git_source(:github) { |_repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.4'
 
+gem 'dotenv-rails', '~> 2.7.6', groups: %i[development test]
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 7.0.2', '>= 7.0.2.4'
 
@@ -56,7 +58,11 @@ group :development, :test do
   gem 'rspec-rails', '>= 3.9.0'
   gem 'shoulda-matchers', '~> 5.0'
 
+  gem 'brakeman', '~> 5.2.3', require: false
   gem 'bullet', '~> 7.0.2'
+  gem 'rubocop', '~> 1.30', require: false
+  gem 'rubocop-rails', '~> 2.14.2', require: false
+  gem 'rubocop-rspec', '~> 2.11.1', require: false
   gem 'strong_migrations', '~> 1.0.0'
 end
 
@@ -79,6 +85,7 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem 'capybara'
+  gem 'database_cleaner-active_record'
   gem 'selenium-webdriver'
   gem 'simplecov', require: false
   gem 'webdrivers'

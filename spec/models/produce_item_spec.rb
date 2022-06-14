@@ -24,8 +24,10 @@ RSpec.describe ProduceItem, type: :model do
 
   it 'is not valid without an unique name' do
     described_class.create!(name: name, category: category)
-    expect(subject.save).to eq(false)
-    expect(subject.errors.to_a).to include('Name has already been taken')
+    expect { subject.save }.to raise_error(
+      ActiveRecord::RecordNotUnique,
+      /duplicate key value violates unique constraint "index_produce_items_on_name"/
+    )
   end
 
   it { is_expected.to have_many(:item_seasons) }
