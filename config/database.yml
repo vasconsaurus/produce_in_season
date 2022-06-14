@@ -20,6 +20,9 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host: <%= ENV['PRODUCE_IN_SEASON_DATABASE_HOSTNAME'] %>
+  username: <%= ENV['PRODUCE_IN_SEASON_DATABASE_USERNAME'] %>
+  password: <%= ENV['PRODUCE_IN_SEASON_DATABASE_PASSWORD'] %>
 
 development:
   <<: *default
@@ -82,5 +85,3 @@ test:
 production:
   <<: *default
   database: produce_in_season_production
-  username: produce_in_season
-  password: <%= ENV["PRODUCE_IN_SEASON_DATABASE_PASSWORD"] %>
