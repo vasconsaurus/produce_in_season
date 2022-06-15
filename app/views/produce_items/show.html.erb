@@ -1,2 +1,10 @@
-<h1>ProduceItems#show</h1>
-<p>Find me in app/views/produce_items/show.html.erb</p>
+<p id="notice"><%= notice %></p>
+
+<h1> <%= @produce_item.name %> </h1>
+<h3> months </h3>
+
+<% @produce_item.item_seasons.each do |season|  %>
+  <p><%= I18n.t("date.month_names")[season.month_index].downcase %></p>
+<% end %>
+
+<%= link_to 'Back', produce_items_path %>
