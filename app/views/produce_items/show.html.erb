@@ -4,7 +4,7 @@
 <h3> months </h3>
 
 <% @produce_item.item_seasons.each do |season|  %>
-  <p><%= I18n.t("date.month_names")[season.month_index].downcase %></p>
+  <p><%= format_month_name(season.month_index)%></p>
 <% end %>
 
 <%= link_to 'Back', produce_items_path %>
