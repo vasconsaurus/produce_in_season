@@ -2,10 +2,12 @@
 
 <h1>Produce</h1>
 
-<section>
-  <% @produce_items.each do |produce|  %>
-    <p><%= produce.name %></p>
-    <p><%= produce.category %></p>
-    <p><%= link_to 'show', produce %></p>
-  <% end %>
-</section>
+<table>
+    <% @produce_items.each do |produce|  %>
+      <tr>
+        <td><%= produce.name_with_whitespace %></td>
+        <td><%= produce.category %></td>
+        <td><%= link_to 'show', produce %></td>
+      </tr>
+    <% end %>
+</table>
