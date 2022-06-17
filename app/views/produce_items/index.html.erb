@@ -5,7 +5,7 @@
 <table>
     <% @produce_items.each do |produce|  %>
       <tr>
-        <td><%= produce.name_with_whitespace %></td>
+        <td><%= produce.readable_name %></td>
         <td><%= produce.category %></td>
         <td><%= link_to 'show', produce %></td>
       </tr>

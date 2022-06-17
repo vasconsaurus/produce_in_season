@@ -9,7 +9,7 @@ class ProduceItem < ApplicationRecord
   validates :name, presence: true
   validates :category, presence: true
 
-  def name_with_whitespace
-    name.gsub(/_/, ' ')
+  def readable_name
+    name.gsub('_', ' ')
   end
 end

@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1> <%= @produce_item.name_with_whitespace %> </h1>
+<h1> <%= @produce_item.readable_name %> </h1>
 <h3> months </h3>
 
 <% @produce_item.item_seasons.each do |season|  %>
