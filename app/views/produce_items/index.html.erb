@@ -5,6 +5,7 @@
 <table>
     <% @produce_items.find_each do |produce|  %>
       <tr>
+        <td><%= I18n.backend.translations[:'pt-BR'].key produce.name %></td>
         <td><%= produce.readable_name %></td>
         <td><%= produce.category %></td>
         <td><%= link_to 'show', produce %></td>
