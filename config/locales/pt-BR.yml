@@ -15,6 +15,10 @@ pt-BR:
     - novembro
     - dezembro
   produce_items:
+    categorys:
+      fruit: fruta
+      vegetable: legume
+      green: verdura
     names:
       abacaxi_havaí: abacaxi havaí
       abacate_fucks/geada: abacate fucks/geada
