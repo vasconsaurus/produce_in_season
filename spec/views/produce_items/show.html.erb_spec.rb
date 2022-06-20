@@ -19,7 +19,7 @@ RSpec.describe 'produce_items/show', type: :view do
       ]
     )
     render
-    expect(rendered).to match(/january/)
-    expect(rendered).to match(/february/)
+    expect(rendered).to match(/janeiro/)
+    expect(rendered).to match(/fevereiro/)
   end
 end
