@@ -1,4 +1,19 @@
 pt-BR:
+  date:
+    month_names:
+    -
+    - janeiro
+    - fevereiro
+    - março
+    - abril
+    - maio
+    - junho
+    - julho
+    - agosto
+    - setembro
+    - outubro
+    - novembro
+    - dezembro
   produce_items:
     names:
       abacaxi_havaí: abacaxi havaí
