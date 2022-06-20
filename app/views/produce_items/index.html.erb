@@ -6,7 +6,7 @@
     <% @produce_items.find_each do |produce|  %>
       <tr>
         <td><%= I18n.t("produce_items.names.#{produce.name}") %></td>
-        <td><%= I18n.t("produce_items.categorys.#{produce.category}") %></td>
+        <td><%= I18n.t("produce_items.categories.#{produce.category}") %></td>
         <td><%= link_to 'ver', produce %></td>
       </tr>
     <% end %>

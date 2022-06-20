@@ -15,7 +15,7 @@ pt-BR:
     - novembro
     - dezembro
   produce_items:
-    categorys:
+    categories:
       fruit: fruta
       vegetable: legume
       green: verdura
