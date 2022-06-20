@@ -8,8 +8,4 @@ class ProduceItem < ApplicationRecord
 
   validates :name, presence: true
   validates :category, presence: true
-
-  def readable_name
-    name.gsub('_', ' ')
-  end
 end
