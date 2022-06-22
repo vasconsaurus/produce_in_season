@@ -60,8 +60,8 @@ group :development, :test do
 
   gem 'brakeman', '~> 5.2.3', require: false
   gem 'bullet', '~> 7.0.2'
-  gem 'factory_bot_rails'
-  gem 'faker'
+  gem 'factory_bot_rails', '~> 6.2.1'
+  gem 'faker', '~> 2.21.0'
   gem 'rubocop', '~> 1.30', require: false
   gem 'rubocop-rails', '~> 2.14.2', require: false
   gem 'rubocop-rspec', '~> 2.11.1', require: false
