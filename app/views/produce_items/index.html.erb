@@ -1,13 +1,13 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Items</h1>
+<h1> <%= I18n.t('produce_item.index.title') %> </h1>
 
 <table>
     <% @produce_items.find_each do |produce|  %>
       <tr>
         <td><%= I18n.t("produce_items.names.#{produce.name}") %></td>
         <td><%= I18n.t("produce_items.categories.#{produce.category}") %></td>
-        <td><%= link_to 'ver', produce %></td>
+        <td><%= link_to I18n.t('action.show'), produce %></td>
       </tr>
     <% end %>
 </table>

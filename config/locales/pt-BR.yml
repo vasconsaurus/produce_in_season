@@ -1,4 +1,12 @@
 pt-BR:
+  action:
+    back: voltar
+    show: ver
+  produce_item:
+    index:
+      title: Items
+    show:
+      title: Época
   date:
     month_names:
     -
