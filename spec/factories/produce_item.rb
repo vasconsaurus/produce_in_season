@@ -4,7 +4,7 @@ require 'faker'
 
 FactoryBot.define do
   factory :produce_item do
-    sequence(:name) { Faker::Food.fruits }
+    sequence(:name) { |n| "#{Faker::Food.fruits}-#{n}" }
     category { 'fruit' }
   end
 end
