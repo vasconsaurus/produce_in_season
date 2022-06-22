@@ -14,8 +14,8 @@ RSpec.describe 'produce_items/show', type: :view do
     assign(
       :item_seasons,
       [
-        ItemSeason.create!(produce_item_id: @produce_item.id, month_index: 1, country_code: 'br', id: 1),
-        ItemSeason.create!(produce_item_id: @produce_item.id, month_index: 2, country_code: 'br', id: 2)
+        ItemSeason.create!(produce_item_id: @produce_item.id, month_index: 1, country_code: 'br'),
+        ItemSeason.create!(produce_item_id: @produce_item.id, month_index: 2, country_code: 'br')
       ]
     )
     render
