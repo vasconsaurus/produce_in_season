@@ -13,5 +13,9 @@ require 'rails_helper'
 #   end
 # end
 RSpec.describe ProduceItemsHelper, type: :helper do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe 'formatted month name' do
+    it 'changes the month_index to a month_name' do
+      expect(helper.formatted_month_name(1)).to eq('janeiro')
+    end
+  end
 end
