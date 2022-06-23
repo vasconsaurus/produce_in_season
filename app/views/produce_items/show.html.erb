@@ -1,10 +1,14 @@
 <p id="notice"><%= notice %></p>
 
-<h1> <%= I18n.t("produce_items.names.#{@produce_item.name}") %> </h1>
-<h3>  <%= I18n.t('produce_item.show.title') %>  </h3>
+<h1 class='page__title'> <%= I18n.t("produce_items.names.#{@produce_item.name}") %> </h1>
+<h3 class='page__subtitle'>  <%= I18n.t('produce_item.show.title') %>  </h3>
 
-<% @produce_item.item_seasons.find_each do |season|  %>
-  <p><%= formatted_month_name(season.month_index)%></p>
-<% end %>
+<table class='produce-table'>
+  <% @produce_item.item_seasons.find_each do |season|  %>
+    <tr>
+      <td class='produce-table__month'><%= formatted_month_name(season.month_index)%></td>
+    </tr>
+  <% end %>
+</table>
 
-<%= link_to I18n.t('action.back'), produce_items_path %>
+<%= link_to I18n.t('action.back'), produce_items_path, class: 'link_action' %>
