@@ -7,10 +7,10 @@ RSpec.describe ItemSeason, type: :model do
   subject { described_class.new(produce_item_id: produce_item.id, month_index: 1, country_code: 'br') }
 
   it 'is valid with valid attributes' do
-    expect(subject).to be_valid
+    expect(item_season).to be_valid
   end
 
   describe 'Associations' do
-    it { should belong_to(:produce_item).without_validating_presence }
+    it { is_expected.to belong_to(:produce_item).without_validating_presence }
   end
 end
