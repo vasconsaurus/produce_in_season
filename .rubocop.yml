@@ -22,3 +22,7 @@ Metrics/BlockLength:
 
 Style/Documentation:
   Enabled: false
+
+RSpec/ExampleLength:
+  Exclude:
+    - 'spec/views/produce_items/show.html.erb_spec.rb'

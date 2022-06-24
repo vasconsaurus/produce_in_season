@@ -15,6 +15,5 @@ RSpec.describe 'produce_items/index', type: :view do
     assign(:produce_items, ProduceItem.all)
     render
     expect(rendered).to match(/banana/)
-    expect(rendered).to match(/apple/)
   end
 end
