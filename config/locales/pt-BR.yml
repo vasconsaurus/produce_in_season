@@ -1,0 +1,194 @@
+pt-BR:
+  action:
+    back: voltar
+    show: ver
+  produce_item:
+    index:
+      title: Items
+    show:
+      title: Época
+  date:
+    month_names:
+    -
+    - janeiro
+    - fevereiro
+    - março
+    - abril
+    - maio
+    - junho
+    - julho
+    - agosto
+    - setembro
+    - outubro
+    - novembro
+    - dezembro
+  produce_items:
+    categories:
+      fruit: fruta
+      vegetable: legume
+      green: verdura
+    names:
+      abacate_breda_margarida: abacate breda e margarida
+      abacate_fortuna_quintal: abacate fortuna e quintal
+      abacate_fucks_geada: abacate fucks e geada
+      abacaxi_havai: abacaxi havaí
+      abacaxi_perola: abacaxi pérola
+      abiu: abiu
+      abobora_d_agua: abóbora d'água
+      abobora_japonesa: abóbora japonesa
+      abobora_paulista: abóbora paulista
+      abobora_seca: abóbora seca
+      abobrinha_brasileira: abobrinha brasileira
+      abobrinha_italiana: abobrinha italiana
+      acelga: acelga
+      acerola: acerola
+      agriao: agrião
+      alcachofra: alcachofra
+      alface: alface
+      alho_estrangeiro: alho estrangeiro
+      alho_nacional: alho nacional
+      almeirao: almeirão
+      ameixa_estrangeira: ameixa estrangeira
+      ameixa_nacional: ameixa nacional
+      amendoa: amêndoa
+      amendoim_com_casca: amendoim com casca
+      amendoim_sem_casca: amendoim sem casca
+      amora: amora
+      aspargos: aspargos
+      atemoia: atemóia
+      avela: avelã
+      banana_maca: banana maçã
+      banana_nanica: banana nanica
+      banana_prata: banana prata
+      batata_doce_amarela: batata doce amarela
+      batata_doce_rosada: batata doce rosada
+      berinjela_comum: berinjela comum
+      berinjela_conserva: berinjela conserva
+      berinjela_japonesa: berinjela japonesa
+      beterraba_com_folhas: beterraba com folhas
+      beterraba: beterraba
+      brocolis: brócolis
+      caju: caju
+      canjica: canjica
+      caqui: caqui
+      cara: cará
+      carambola: carambola
+      castanha_estrangeira: castanha estrangeira
+      castanha_nacional: castanha nacional
+      catalonha: catalonha
+      cebola_estrangeira: cebola estrangeira
+      cebola_mg: cebola mg
+      cebola_nacional: cebola nacional
+      cebola_sc: cebola sc
+      cebola_sp: cebola sp
+      cenoura_com_folhas: cenoura com folhas
+      cereja_estrangeira: cereja estrangeira
+      chicoria: chicória
+      chuchu: chuchu
+      cidra: cidra
+      coco_verde: coco verde
+      coentro: coentro
+      couve_de_bruxelas: couve de bruxelas
+      couve_flor: couve-flor
+      couve: couve
+      cupuacu: cupuaçu
+      damasco_estrangeiro: damasco estrangeiro
+      erva_doce: erva-doce
+      ervilha_comum: ervilha comum
+      ervilha_torta: ervilha torta
+      escarola: escarola
+      espinafre: espinafre
+      fava: fava
+      figo: figo
+      folha_de_uva: folha de uva
+      framboesa: framboesa
+      gengibre_com_folha: gengibre com folha
+      gengibre: gengibre
+      gobo: gobo
+      goiaba: goiaba
+      graviola: graviola
+      hortela: hortelã
+      inhame: inhame
+      jabuticaba: jabuticaba
+      jaca: jaca
+      jilo: jiló
+      kiwi_estrangeiro: kiwi estrangeiro
+      kiwi_nacional: kiwi nacional
+      laranja_baia: laranja baia
+      laranja_lima: laranja lima
+      laranja_pera: laranja pera
+      lichia: lichia
+      lima_da_persia: lima da pérsia
+      limao_taiti: limão taiti
+      louro: louro
+      maca_estrangeira_granny_smith: maçã estrangeira granny smith
+      maca_estrangeira_red_delicious: maçã estrangeira red delicious
+      maca_nacional_fuji: maçã nacional fuji
+      maca_nacional_gala: maçã nacional gala
+      mamao_formosa: mamão formosa
+      mamao_havai: mamão havaí
+      mandioca: mandioca
+      mandioquinha: mandioquinha
+      manga_haden: manga haden
+      manga_palmer: manga palmer
+      manga_tommy: manga tommy
+      mangostao: mangostão
+      manjericao: manjericão
+      maracuja_azedo: maracujá azedo
+      maracuja_doce: maracujá doce
+      marmelo: marmelo
+      maxixe: maxixe
+      melancia: melancia
+      melao_amarelo: melão amarelo
+      mexerica: mexerica
+      milho_verde: milho verde
+      moiashi: moiashi
+      morango: morango
+      mostarda: mostarda
+      nabo: nabo
+      nectarina_estrangeira: nectarina estrangeira
+      nectarina_nacional: nectarina nacional
+      nespera: nêspera
+      nozes: nozes
+      oregano: orégano
+      palmito: palmito
+      pepino_caipira: pepino caipira
+      pepino_comum: pepino comum
+      pepino_japones: pepino japonês
+      pera_estrangeira: pêra estrangeira
+      pera_nacional: pêra nacional
+      pessego_estrangeiro: pêssego estrangeiro
+      pessego_nacional: pêssego nacional
+      physalis: physalis
+      pimenta_cambuci: pimenta cambuci
+      pimenta_vermelha: pimenta vermelha
+      pimentao_verde: pimentão verde
+      pimentao_vermelho: pimentão vermelho
+      pinha: pinha
+      pinhao: pinhão
+      pitaia: pitaia
+      quiabo: quiabo
+      quincam: quincam
+      rabanete: rabanate
+      repolho: repolho
+      roma: romã
+      rucula: rúcula
+      salsa: salsa
+      salsao: salsão
+      sapoti: sapoti
+      seriguela: seriguela
+      tamara: tâmara
+      tamarindo: tamarindo
+      tangerina_cravo: tangerina cravo
+      tangerina_murcot: tangerina murcot
+      tangerina_poncan: tangerina poncan
+      taquenoco: taquenoco
+      tomate_caqui: tomate caqui
+      tomate_salada: tomate salada
+      tomate: tomate
+      uva_estrangeira: uva estrangeira
+      uva_italia: uva itália
+      uva_niagara: uva niagara
+      uva_rubi: uva rubi
+      uva_thompson: uva thompson
+      vagem: vagem
