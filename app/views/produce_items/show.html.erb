@@ -7,9 +7,9 @@
   <% @produce_item.item_seasons.find_each do |season|  %>
     <tr>
       <td class='produce-table__month'><%= formatted_month_name(season.month_index)%></td>
+      <td class='produce-table__link_action'><%= link_to I18n.t('action.show'), item_season_path((season.month_index)), class: 'link_action' %></td>
     </tr>
   <% end %>
 </table>
 
-<%= link_to I18n.t('action.back_to_produce_list'), produce_items_path, class: 'link_action' %>
-<%= link_to I18n.t('action.back_to_months_list'), item_seasons_path, class: 'link_action' %>
+<%= link_to I18n.t('action.back'), :back %>
