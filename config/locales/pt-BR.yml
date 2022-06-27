@@ -7,6 +7,9 @@ pt-BR:
       title: Items
     show:
       title: Época
+  item_season:
+    index:
+      title: Meses
   date:
     month_names:
     -

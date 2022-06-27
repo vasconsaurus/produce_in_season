@@ -1,2 +1,13 @@
-<h1>ItemSeasons#index</h1>
-<p>Find me in app/views/item_seasons/index.html.erb</p>
+<p id="notice"><%= notice %></p>
+
+<h1 class='page__title'> <%= I18n.t('item_season.index.title') %> </h1>
+
+<table class='produce-table'>
+  <% I18n.t('date.month_names').each do |month_name|  %>
+    <tr>
+      <% unless month_name == nil %>
+        <td class='produce-table__month'><%= link_to month_name, item_season_path(month_name_to_index(month_name)), class: 'link_action' %></td>
+      <% end %>
+    </tr>
+  <% end %>
+</table>
