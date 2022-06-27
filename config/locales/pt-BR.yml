@@ -2,6 +2,8 @@ pt-BR:
   action:
     back: voltar
     show: ver
+    back_to_produce_list: voltar a lista de items
+    back_to_months_list: voltar a lista de meses
   produce_item:
     index:
       title: Items
