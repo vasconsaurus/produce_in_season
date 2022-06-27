@@ -1,9 +1,9 @@
 <p id="notice"><%= notice %></p>
 
-<h1 class='page__title'> <%= formatted_month_name(@item_season.id).capitalize %> </h1>
+<h1 class='page__title'> <%= formatted_month_name(@item_season.month_index).capitalize %> </h1>
 
 <table class='produce-table'>
-  <% ItemSeason.includes([:produce_item]).where(month_index: @item_season.id).find_each do |season| %>
+  <% ItemSeason.includes([:produce_item]).where(month_index: @item_season.month_index).find_each do |season| %>
     <tr>
         <td class='produce-table__name'><%= I18n.t("produce_items.names.#{season.produce_item.name}").capitalize %></td>
         <td class='produce-table__category'><%= I18n.t("produce_items.categories.#{season.produce_item.category}") %></td>

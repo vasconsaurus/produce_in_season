@@ -2,7 +2,7 @@
 
 Rails.application.routes.draw do
   resources :produce_items, only: %i[index show]
-  resources :item_seasons, only: %i[index show]
+  resources :item_seasons, only: %i[index show], param: :month_index
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
