@@ -3,9 +3,9 @@
 require 'rails_helper'
 
 RSpec.describe 'ProduceItems', type: :feature do
-  # let!(:produce_item) { ProduceItem.create(name: 'carambola', category: 'fruit') }
+  let!(:produce_item) { ProduceItem.create(name: 'carambola', category: 'fruit') }
 
-  # before { ItemSeason.create(produce_item_id: produce_item.id, month_index: 1, country_code: 'br') }
+  before { ItemSeason.create(produce_item_id: produce_item.id, month_index: 1, country_code: 'br') }
 
   it 'visits the item seasons index' do
     visit(item_seasons_path)
@@ -27,5 +27,12 @@ RSpec.describe 'ProduceItems', type: :feature do
     visit(item_seasons_path)
     first('table tr td a.link_action').click
     expect(page).to have_css('table tr td.produce-table__name')
+  end
+
+  it 'expects link to navigate to show and back to index' do
+    visit(item_seasons_path)
+    first('table tr td a.link_action').click
+    all('.link_action').last.click
+    expect(page).to have_current_path(item_seasons_path)
   end
 end
