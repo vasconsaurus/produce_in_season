@@ -13,5 +13,9 @@ require 'rails_helper'
 #   end
 # end
 RSpec.describe ItemSeasonsHelper, type: :helper do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe 'month name to index' do
+    it 'changes the month_name to a month_index' do
+      expect(helper.month_name_to_index('janeiro')).to eq(1)
+    end
+  end
 end
