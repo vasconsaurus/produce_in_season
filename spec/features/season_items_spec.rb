@@ -26,7 +26,6 @@ RSpec.describe 'ProduceItems', type: :feature do
   it 'expects link to navigate to show' do
     visit(item_seasons_path)
     first('table tr td a.link_action').click
-    save_and_open_page
     expect(page).to have_css('table tr td.produce-table__name')
   end
 end
