@@ -12,9 +12,8 @@ RSpec.describe 'ItemSeasons', type: :request do
 
   describe 'GET /show' do
     it 'returns http success' do
-      produce_item = ProduceItem.create!(name: 'carambola', category: 'fruit')
-      item_season = ItemSeason.create!(month_index: 1, country_code: 'BR', produce_item_id: produce_item.id)
-      get item_season_path(item_season)
+      month_name = 'janeiro'
+      get item_seasons_path(I18n.t('date.month_names').find_index(month_name))
       expect(response).to have_http_status(:success)
     end
   end
