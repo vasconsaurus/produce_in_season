@@ -9,12 +9,13 @@ RSpec.describe 'item_seasons/show', type: :view do
   it 'display month name' do
     assign(:item_season, item_season)
     render
-    expect(rendered).to match(/janeiro/)
+    expect(rendered).to match(/Janeiro/)
   end
 
   it 'displays the produces' do
+    assign(:item_season, item_season)
     assign(:produce_item, produce_item)
     render
-    expect(rendered).to match(/carambola/)
+    expect(rendered).to match(/Carambola/)
   end
 end
