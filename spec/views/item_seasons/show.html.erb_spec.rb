@@ -8,13 +8,14 @@ RSpec.describe 'item_seasons/show', type: :view do
 
   it 'display month name' do
     assign(:item_season, item_season)
+    assign(:produce_item, ItemSeason.includes([:produce_item]).where(month_index: item_season.month_index))
     render
     expect(rendered).to match(/Janeiro/)
   end
 
   it 'displays the produces' do
-    assign(:produce_item, produce_item)
     assign(:item_season, item_season)
+    assign(:produce_item, ItemSeason.includes([:produce_item]).where(month_index: item_season.month_index))
     render
     expect(rendered).to match(/Carambola/)
   end
