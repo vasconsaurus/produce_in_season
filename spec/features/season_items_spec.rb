@@ -17,19 +17,19 @@ RSpec.describe 'ProduceItems', type: :feature do
     expect(page).to have_css('table tr td.produce-table__month')
   end
 
-  it 'expects the page to have 12 links' do
+  it 'expects the page to have one link per month' do
     visit(item_seasons_path)
     links = page.all(class: ['link_action']).length
     expect(links).to match(12)
   end
 
-  it 'expects link to navigate to show' do
+  it 'expects "show" link to navigate to show' do
     visit(item_seasons_path)
     first('table tr td a.link_action').click
     expect(page).to have_css('table tr td.produce-table__name')
   end
 
-  it 'expects link to navigate to show and back to index' do
+  it 'expects "show" link to navigate to show and back to index' do
     visit(item_seasons_path)
     first('table tr td a.link_action').click
     find('.back').click
