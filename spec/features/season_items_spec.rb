@@ -32,7 +32,7 @@ RSpec.describe 'ProduceItems', type: :feature do
   it 'expects link to navigate to show and back to index' do
     visit(item_seasons_path)
     first('table tr td a.link_action').click
-    all('.link_action').last.click
+    find('.back').click
     expect(page).to have_current_path(item_seasons_path)
   end
 end
