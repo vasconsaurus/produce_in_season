@@ -11,6 +11,7 @@
   </head>
 
   <body>
+    <% if notice %><aside id="notice"><%= notice %></aside><% end %>
     <%= yield %>
   </body>
 </html>
