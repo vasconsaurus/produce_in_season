@@ -1,10 +1,10 @@
-<h1 class='page__title'> <%= I18n.t('item_season.index.title') %> </h1>
+<h1 class="page__title"> <%= I18n.t("item_season.index.title") %> </h1>
 
-<table class='produce-table'>
+<table class="produce-table">
   <% I18n.t('date.month_names').each do |month_name|  %>
     <tr>
       <% unless month_name == nil %>
-        <td class='produce-table__month'><%= link_to month_name.capitalize, item_season_path(month_name_to_index(month_name)), class: 'link_action' %></td>
+        <td class="produce-table__month"><%= link_to month_name.capitalize, item_season_path(month_name_to_index(month_name)), class: "link_action" %></td>
       <% end %>
     </tr>
   <% end %>

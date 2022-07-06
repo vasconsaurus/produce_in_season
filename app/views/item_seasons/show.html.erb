@@ -1,13 +1,13 @@
-<h1 class='page__title'> <%= formatted_month_name(@item_season.month_index).capitalize %> </h1>
+<h1 class="page__title"> <%= formatted_month_name(@item_season.month_index).capitalize %> </h1>
 
-<table class='produce-table'>
+<table class="produce-table">
   <% ItemSeason.includes([:produce_item]).where(month_index: @item_season.month_index).find_each do |season| %>
     <tr>
-        <td class='produce-table__name'><%= I18n.t("produce_items.names.#{season.produce_item.name}").capitalize %></td>
-        <td class='produce-table__category'><%= I18n.t("produce_items.categories.#{season.produce_item.category}") %></td>
-        <td class='produce-table__link_action'><%= link_to I18n.t('action.show'), season.produce_item, class: 'link_action' %></td>
+        <td class="produce-table__name"><%= I18n.t("produce_items.names.#{season.produce_item.name}").capitalize %></td>
+        <td class="produce-table__category"><%= I18n.t("produce_items.categories.#{season.produce_item.category}") %></td>
+        <td class="produce-table__link_action"><%= link_to I18n.t('action.show'), season.produce_item, class: "link_action" %></td>
     </tr>
   <% end %>
 </table>
 
-<%= link_to I18n.t('action.back'), :back, class: 'link_action' %>
+<%= link_to I18n.t("action.back"), :back, class: "link_action" %>
