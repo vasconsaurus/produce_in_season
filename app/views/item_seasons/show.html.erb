@@ -1,7 +1,7 @@
 <h1 class="page__title"> <%= formatted_month_name(@item_season.month_index).capitalize %> </h1>
 
 <table class="produce-table">
-  <% @produce_item.find_each do |produce| %>
+  <% @item_season_produces.find_each do |produce| %>
     <tr>
         <td class="produce-table__name"><%= I18n.t("produce_items.names.#{produce.produce_item.name}").capitalize %></td>
         <td class="produce-table__category"><%= I18n.t("produce_items.categories.#{produce.produce_item.category}") %></td>

@@ -8,7 +8,7 @@ class ItemSeasonsController < ApplicationController
   end
 
   def show
-    @produce_item = ItemSeason.includes([:produce_item]).where(month_index: @item_season.month_index)
+    @item_season_produces = ItemSeason.includes([:produce_item]).where(month_index: @item_season.month_index)
   end
 
   private
