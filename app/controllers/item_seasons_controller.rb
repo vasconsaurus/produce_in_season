@@ -12,6 +12,6 @@ class ItemSeasonsController < ApplicationController
   private
 
   def set_item_season
-    @item_season = ItemSeason.find_by_month_index(params[:month_index])
+    @item_season = ItemSeason.find_by(month_index: params[:month_index])
   end
 end
