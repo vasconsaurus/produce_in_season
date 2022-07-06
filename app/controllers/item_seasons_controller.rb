@@ -8,7 +8,8 @@ class ItemSeasonsController < ApplicationController
   end
 
   def show
-    @item_season_produces = ProduceItem.joins(:item_seasons).where(item_seasons: { month_index: @item_season.month_index })
+    @item_season_produces = ProduceItem.joins(:item_seasons)
+                                       .where(item_seasons: { month_index: @item_season.month_index })
   end
 
   private
