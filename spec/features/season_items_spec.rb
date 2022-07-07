@@ -20,7 +20,7 @@ RSpec.describe 'ProduceItems', type: :feature do
   it 'expects the page to have one link per month' do
     visit(item_seasons_path)
     links = page.all(class: ['link_action']).length
-    expect(links).to match(12)
+    expect(links).to match(ItemSeason::MONTHS.length)
   end
 
   it 'expects "show" link to navigate to show' do
