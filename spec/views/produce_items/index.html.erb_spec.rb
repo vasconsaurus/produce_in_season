@@ -10,10 +10,10 @@ RSpec.describe 'produce_items/index', type: :view do
   end
 
   it 'displays produce items' do
-    ProduceItem.create!(name: 'banana', category: 'fruit')
-    ProduceItem.create!(name: 'apple', category: 'fruit')
+    ProduceItem.create!(name: 'goiaba', category: 'fruit')
+    ProduceItem.create!(name: 'graviola', category: 'fruit')
     assign(:produce_items, ProduceItem.all)
     render
-    expect(rendered).to match(/banana/)
+    expect(rendered).to match(/Goiaba/)
   end
 end

@@ -2,11 +2,16 @@ pt-BR:
   action:
     back: voltar
     show: ver
+    back_to_produce_list: voltar à lista de items
+    back_to_months_list: voltar à lista de meses
   produce_item:
     index:
       title: Items
     show:
       title: Época
+  item_season:
+    index:
+      title: Meses
   date:
     month_names:
     -

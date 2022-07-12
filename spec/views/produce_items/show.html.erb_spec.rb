@@ -10,7 +10,7 @@ RSpec.describe 'produce_items/show', type: :view do
   it 'display produce item' do
     assign(:produce_item, produce_item)
     render
-    expect(rendered).to match(/carambola/)
+    expect(rendered).to match(/Carambola/)
   end
 
   it 'displays months' do
