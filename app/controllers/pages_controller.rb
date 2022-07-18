@@ -7,10 +7,7 @@ class PagesController < ApplicationController
     slug = params[:slug]
     view_file = Rails.root.join('app', 'views', 'pages', "#{slug}.html.erb")
 
-    unless view_file.exist?
-      render 'pages/404', status: :not_found
-      return
-    end
+    return render 'pages/404', status: :not_found unless view_file.exist?
 
     render "pages/#{slug}"
   end
