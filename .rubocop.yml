@@ -8,6 +8,10 @@ AllCops:
   Exclude:
     - 'bin/bundle'
     - 'db/schema.rb'
+    - 'lib/tasks/auto_annotate_models.rake'
+
+Lint/RedundantCopDisableDirective:
+  Enabled: false
 
 Layout/LineLength:
   Max: 120
