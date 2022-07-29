@@ -32,3 +32,20 @@ RSpec.describe ProduceItem, type: :model do
 
   it { is_expected.to have_many(:item_seasons) }
 end
+
+# rubocop:disable Layout/LineLength
+# == Schema Information
+#
+# Table name: produce_items
+#
+#  id         :bigint           not null, primary key
+#  name       :string           not null
+#  category   :string           not null
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+# Indexes
+#
+#  index_produce_items_on_name  (name) UNIQUE
+#
+# rubocop:enable Layout/LineLength
