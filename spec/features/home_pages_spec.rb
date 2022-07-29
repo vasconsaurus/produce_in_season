@@ -2,8 +2,8 @@
 
 require 'rails_helper'
 
-RSpec.describe 'Pages', type: :feature do
-  it 'visits the pages index' do
+RSpec.describe 'HomePages', type: :feature do
+  it 'visits the homepage' do
     visit(root_path)
     expect(page).to have_current_path(root_path)
   end
