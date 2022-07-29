@@ -2,7 +2,7 @@
 
 require 'rails_helper'
 
-RSpec.describe 'home_page/show', type: :view do
+RSpec.describe 'home_page/index', type: :view do
   it 'displays the title' do
     render
     expect(rendered).to match(/Feira Fresquinha/)
