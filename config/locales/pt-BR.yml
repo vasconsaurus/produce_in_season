@@ -14,22 +14,22 @@ pt-BR:
       title: Meses
   date:
     month_names:
-    -
-    - janeiro
-    - fevereiro
-    - março
-    - abril
-    - maio
-    - junho
-    - julho
-    - agosto
-    - setembro
-    - outubro
-    - novembro
-    - dezembro
+      -
+      - janeiro
+      - fevereiro
+      - março
+      - abril
+      - maio
+      - junho
+      - julho
+      - agosto
+      - setembro
+      - outubro
+      - novembro
+      - dezembro
   produce_item:
     index:
-      title: Items
+      title: Itens
     show:
       title: Época
   produce_items:
