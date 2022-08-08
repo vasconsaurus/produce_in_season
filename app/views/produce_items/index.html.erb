@@ -1,6 +1,10 @@
 <h1 class="page__title"> <%= I18n.t('produce_item.index.title') %> </h1>
 
 <table class="produce-table">
+    <tr>
+      <th><%= link_to "Name", sort: :name %></th>
+      <th><%= link_to "Category", sort: :category %></th>
+    </tr>
     <% @produce_items.each do |produce|  %>
       <tr>
         <td class="produce-table__name"><%= I18n.t("produce_items.names.#{produce.name}").capitalize %></td>
