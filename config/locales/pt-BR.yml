@@ -4,8 +4,8 @@ pt-BR:
     show: ver
     back_to_produce_list: voltar à lista de items
     back_to_months_list: voltar à lista de meses
-    search_by_month: procure pelo mês
-    search_by_produce: procure pelo produto
+    month: mês
+    produce: item
   root:
     title: Feira Fresquinha
     about: Saiba quais são os produtos da estação, aproveite o sabor e gaste menos
