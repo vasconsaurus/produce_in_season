@@ -1,1 +1,22 @@
-@import url('<link rel="stylesheet" href="https://use.typekit.net/mxd1nlu.css">');
+html {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-family: eds-market-bold-slant, sans-serif;
+}
+
+h2, h3, h4 {
+  font-weight: 900;
+}
+
+.script-md {
+  font-family: eds-market-bold-slant, sans-serif;
+  font-size: 34pt;
+}
+
+.script-lg {
+  font-family: eds-market-bold-slant, sans-serif;
+  font-size: 40pt;
+}

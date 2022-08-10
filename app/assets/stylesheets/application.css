@@ -14,4 +14,12 @@
  *= require_self
  */
 
+@import "config/colors";
 @import "config/fonts";
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  /* border: 0.5px solid blue; */
+}
