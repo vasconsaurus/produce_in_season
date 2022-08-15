@@ -4,7 +4,7 @@
 
 <section class="banner-buttons p-top-30 p-bottom-60 p-sides-30">
   <div class="p-bottom-30">
-    <h3 class="yellow-txt">Procure pelo</h3>
+    <h3 class="yellow-txt"><%= I18n.t('action.search_by') %></h3>
   </div>
   <div class="button-holder">
     <div class="yellow-button script-lg minus-5">
@@ -17,14 +17,19 @@
 </section>
 
 <section class="banner-about p-top-30 p-bottom-60 p-sides-30">
-  <%= image_tag "/assets/img/front-development/fernando-andrade-nAOZCYcLND8-unsplash.png" %>
+  <% if File.file?("#{Rails.root}/app/assets/img/fernando-andrade-nAOZCYcLND8-unsplash.png") %>
+    <%= image_tag "/assets/img/front-development/fernando-andrade-nAOZCYcLND8-unsplash.png" %>
+  <% end %>
   <div class="txt">
     <div class="p-bottom-30">
-        <h3 class="white-txt"><%= I18n.t('root.about-title') %></h3>
+        <h3 class="white-txt"><%= I18n.t('root.about_title') %></h3>
     </div>
     <div>
-      <p class="white-txt p-bottom-30"><%= I18n.t('root.about-text-p1') %></p>
-      <p class="white-txt"><%= I18n.t('root.about-text-p2') %></p>
+      <p class="white-txt p-bottom-30"><%= I18n.t('root.about_text_p1') %></p>
+      <p class="white-txt"><%= I18n.t('root.about_text_p2') %></p>
     </div>
   </div>
+  <% if File.file?("#{Rails.root}/app/assets/img/fernando-andrade-nAOZCYcLND8-unsplash.png") %>
+    <%= image_tag "/assets/img/front-development/fernando-andrade-nAOZCYcLND8-unsplash.png" %>
+  <% end %>
 </section>

@@ -4,14 +4,15 @@ pt-BR:
     show: ver
     back_to_produce_list: voltar à lista de items
     back_to_months_list: voltar à lista de meses
+    search_by: procure pelo
     month: mês
     produce: item
   root:
     title: Feira Fresquinha
     hero: Saiba quais são os produtos da estação, aproveite o sabor e gaste menos
-    about-title: O que é o Feira Fresquinha?
-    about-text-p1: Comprando o seu produto na feira na época certa, você economiza e compra um produto mais saboroso.
-    about-text-p2: Aqui na nossa feira você consegue procurar pelo item e checar está na época, ou você consegue checar pelo mês e ver que items estão bacanas no momento.
+    about_title: O que é o Feira Fresquinha?
+    about_text_p1: Comprando o seu produto na feira na época certa, você economiza e compra um produto mais saboroso.
+    about_text_p2: Aqui na nossa feira você consegue procurar pelo item e checar está na época, ou você consegue checar pelo mês e ver que items estão bacanas no momento.
   item_season:
     index:
       title: Meses
