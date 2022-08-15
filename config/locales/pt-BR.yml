@@ -8,7 +8,10 @@ pt-BR:
     produce: item
   root:
     title: Feira Fresquinha
-    about: Saiba quais são os produtos da estação, aproveite o sabor e gaste menos
+    hero: Saiba quais são os produtos da estação, aproveite o sabor e gaste menos
+    about-title: O que é o Feira Fresquinha?
+    about-text-p1: Comprando o seu produto na feira na época certa, você economiza e compra um produto mais saboroso.
+    about-text-p2: Aqui na nossa feira você consegue procurar pelo item e checar está na época, ou você consegue checar pelo mês e ver que items estão bacanas no momento.
   item_season:
     index:
       title: Meses

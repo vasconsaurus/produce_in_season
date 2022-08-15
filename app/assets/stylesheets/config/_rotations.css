@@ -1,0 +1,23 @@
+.minus-5 {
+  transform: rotate(-5deg);
+}
+
+.minus-10 {
+  transform: rotate(-10deg);
+}
+
+.minus-15 {
+  transform: rotate(-15deg);
+}
+
+.plus-5 {
+  transform: rotate(5deg);
+}
+
+.plus-10 {
+  transform: rotate(10deg);
+}
+
+.plus-15 {
+  transform: rotate(15deg);
+}

@@ -1,13 +1,30 @@
-<section class="banner-hero">
-  <div class="script-md"><%= I18n.t('root.about') %></div>
+<section class="banner-hero p-top-60 p-bottom-60 p-sides-30">
+  <div class="script-md"><%= I18n.t('root.hero') %></div>
 </section>
 
-<section class="banner-search">
-  <div>
-    <h3>Procure pelo</h3>
+<section class="banner-buttons p-top-30 p-bottom-60 p-sides-30">
+  <div class="p-bottom-30">
+    <h3 class="yellow-txt">Procure pelo</h3>
   </div>
   <div class="button-holder">
-    <div class="red-outline script-lg"><%= link_to I18n.t('action.month').capitalize, item_seasons_path, class: 'link_action' %></div>
-    <div class="red-outline script-lg"><%= link_to I18n.t('action.produce').capitalize, produce_items_path, class: 'link_action' %></div>
+    <div class="yellow-button script-lg minus-5">
+      <%= link_to I18n.t('action.month').capitalize, item_seasons_path, class: 'link_action' %>
+    </div>
+    <div class="yellow-button script-lg">
+      <%= link_to I18n.t('action.produce').capitalize, produce_items_path, class: 'link_action' %>
+    </div>
+  </div>
+</section>
+
+<section class="banner-about p-top-30 p-bottom-60 p-sides-30">
+  <%= image_tag "/assets/img/front-development/fernando-andrade-nAOZCYcLND8-unsplash.png" %>
+  <div class="txt">
+    <div class="p-bottom-30">
+        <h3 class="white-txt"><%= I18n.t('root.about-title') %></h3>
+    </div>
+    <div>
+      <p class="white-txt p-bottom-30"><%= I18n.t('root.about-text-p1') %></p>
+      <p class="white-txt"><%= I18n.t('root.about-text-p2') %></p>
+    </div>
   </div>
 </section>

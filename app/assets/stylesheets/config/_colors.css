@@ -5,3 +5,19 @@ html {
   --light-blue: #7387EB;
   --blue: #2347EB;
 }
+
+.yellow-txt {
+  color: var(--yellow);
+}
+
+.red-txt {
+  color: var(--red);
+}
+
+.blue-txt {
+  color: var(--blue);
+}
+
+.white-txt {
+  color: white;
+}

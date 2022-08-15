@@ -5,10 +5,39 @@ html {
 
 h1 {
   font-family: eds-market-bold-slant, sans-serif;
+  font-size: 48pt;
 }
 
 h2, h3, h4 {
   font-weight: 900;
+  text-transform: uppercase;
+}
+
+h5, h6 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 600;
+  font-size: 16pt;
+  line-height: 22pt;
+}
+
+h2 {
+  font-size: 32pt;
+}
+
+h3 {
+  font-size: 20pt;
+}
+
+h4, h5 {
+  font-size: 16pt;
+}
+
+h6 {
+  font-size: 12pt;
 }
 
 .script-md {
