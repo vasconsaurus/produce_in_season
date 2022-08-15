@@ -1,0 +1,9 @@
+a, a:visited {
+  color: var(--blue);
+  text-decoration-color: var(--blue);
+  transition: 0.5s ease-in-out;
+}
+
+a:hover {
+  color: var(--red);
+}

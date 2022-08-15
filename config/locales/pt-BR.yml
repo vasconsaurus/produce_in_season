@@ -8,7 +8,9 @@ pt-BR:
     month: mês
     produce: item
   root:
-    title: Feira Fresquinha
+    title_html: >
+      Feira<br />
+      Fresquinha
     hero: Saiba quais são os produtos da estação, aproveite o sabor e gaste menos
     about_title: O que é o Feira Fresquinha?
     about_text_p1: Comprando o seu produto na feira na época certa, você economiza e compra um produto mais saboroso.

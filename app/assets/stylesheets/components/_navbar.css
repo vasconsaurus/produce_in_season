@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--yellow);
+  position: fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100px;
+}
+
+.logo {
+  font-family: eds-market-bold-slant, sans-serif;
+  font-size: 16pt;
+  line-height: 17pt;
+  color: var(--blue);
+  text-align: center;
+}
+
+.design-elements {
+  font-family: Eds Market Design Elements;
+}
+
+.nav-right {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: var(--blue);
+  font-size: 12pt;
+}
+
+@media (width <= 500px) {
+  .nav-right {
+    flex-flow: column nowrap;
+    gap: 0;
+    align-items: flex-end;
+    text-align: right;
+  }
+}
+
+.nav-right p {
+  font-weight: 900;
+  font-size: 12pt;
+  line-height: 13pt;
+}
