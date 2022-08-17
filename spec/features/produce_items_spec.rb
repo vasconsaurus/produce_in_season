@@ -22,9 +22,9 @@ RSpec.describe 'ProduceItems', type: :feature do
     expect(page).to have_css('table tr td.produce-table__category')
   end
 
-  it 'expects link to be visible' do
+  it 'expects produce link to be visible' do
     visit(produce_items_path)
-    find_link(class: ['link_action'], visible: :all).visible?
+    find_link(class: ['produce_link'], visible: :all).visible?
   end
 
   it 'expects link to navigate to show and back to index' do
