@@ -43,9 +43,17 @@ h6 {
 .script-md {
   font-family: eds-market-bold-slant, sans-serif;
   font-size: 34pt;
+  line-height: 46pt;
 }
 
 .script-lg {
   font-family: eds-market-bold-slant, sans-serif;
   font-size: 40pt;
+}
+
+@media (width <= 300px) {
+  .script-md {
+    font-size: 26pt;
+    line-height: 38pt;
+  }
 }

@@ -33,6 +33,11 @@
   padding-right: 30px;
 }
 
+.p-sides-60 {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 /* margins */
 .m-top-15 {
   margin-top: 15px;
