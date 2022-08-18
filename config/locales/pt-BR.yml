@@ -4,29 +4,34 @@ pt-BR:
     show: ver
     back_to_produce_list: voltar à lista de items
     back_to_months_list: voltar à lista de meses
-  produce_item:
-    index:
-      title: Items
-    show:
-      title: Época
+    search_by_month: procure pelo mês
+    search_by_produce: procure pelo produto
+  root:
+    title: Feira Fresquinha
+    about: Saiba quais são os produtos da estação, aproveite o sabor e gaste menos
   item_season:
     index:
       title: Meses
   date:
     month_names:
-    -
-    - janeiro
-    - fevereiro
-    - março
-    - abril
-    - maio
-    - junho
-    - julho
-    - agosto
-    - setembro
-    - outubro
-    - novembro
-    - dezembro
+      -
+      - janeiro
+      - fevereiro
+      - março
+      - abril
+      - maio
+      - junho
+      - julho
+      - agosto
+      - setembro
+      - outubro
+      - novembro
+      - dezembro
+  produce_item:
+    index:
+      title: Itens
+    show:
+      title: Época
   produce_items:
     categories:
       fruit: fruta
