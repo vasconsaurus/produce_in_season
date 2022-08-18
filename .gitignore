@@ -31,3 +31,6 @@
 /config/master.key
 coverage/
 .env
+
+# Ignore DS Store
+**/.DS_Store
