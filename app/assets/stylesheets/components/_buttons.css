@@ -1,19 +1,13 @@
-.button-holder {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  gap: 30px;
-}
-
-.yellow-button {
-  background-color: var(--yellow);
+.button {
   width: 200px;
   height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.button--yellow {
+  background-color: var(--yellow);
   outline: 6px solid var(--red);
   outline-offset: -10px;
 }
