@@ -1,3 +1,21 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* body *, body *::before, body *::after {
+  border: 0.5px solid blue;
+} */
+
+html, body { height: 100% }
+
+body {
+  background-color: var(--yellow);
+  display: flex;
+  flex-direction: column;
+}
+
 a, a:visited {
   color: var(--blue);
   text-decoration-color: var(--blue);

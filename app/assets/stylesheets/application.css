@@ -25,24 +25,6 @@
 @import "config/spaces";
 @import "pages/homepage.css";
 
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-}
-
-/* body *, body *::before, body *::after {
-  border: 0.5px solid blue;
-} */
-
-html, body { height: 100% }
-
-body {
-  background-color: var(--yellow);
-  display: flex;
-  flex-direction: column;
-}
-
 .content {
   flex: 1 0 auto;
 }
