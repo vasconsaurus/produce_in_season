@@ -14,8 +14,8 @@
 
 .logo {
   font-family: eds-market-bold-slant, sans-serif;
-  font-size: 16pt;
-  line-height: 17pt;
+  font-size: var(--font-size-s);
+  line-height: 1.25;
   color: var(--blue);
   text-align: center;
 }
@@ -33,7 +33,7 @@
   text-transform: uppercase;
   font-weight: 900;
   color: var(--blue);
-  font-size: 12pt;
+  font-size: var(--font-size-xs);
 }
 
 @media (width <= 500px) {
@@ -47,6 +47,6 @@
 
 .nav-right p {
   font-weight: 900;
-  font-size: 12pt;
-  line-height: 13pt;
+  font-size: var(--font-size-xs);
+  line-height: 1.15;
 }

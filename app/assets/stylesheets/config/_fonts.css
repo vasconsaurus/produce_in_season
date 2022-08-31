@@ -5,7 +5,7 @@ html {
 
 h1 {
   font-family: eds-market-bold-slant, sans-serif;
-  font-size: 48pt;
+  font-size: var(--font-size-xl);
 }
 
 h2, h3, h4 {
@@ -20,40 +20,40 @@ h5, h6 {
 
 p {
   font-weight: 600;
-  font-size: 16pt;
-  line-height: 22pt;
+  font-size: var(--font-size-s);
+  line-height: 1.5;
 }
 
 h2 {
-  font-size: 32pt;
+  font-size: var(--font-size-l);
 }
 
 h3 {
-  font-size: 20pt;
+  font-size: var(--font-size-m);
 }
 
 h4, h5 {
-  font-size: 16pt;
+  font-size: var(--font-size-s);
 }
 
 h6 {
-  font-size: 12pt;
+  font-size: var(--font-size-xs);
 }
 
 .script-md {
   font-family: eds-market-bold-slant, sans-serif;
-  font-size: 34pt;
-  line-height: 46pt;
+  font-size: var(--script-size-m);
+  line-height: 1.5;
 }
 
 .script-lg {
   font-family: eds-market-bold-slant, sans-serif;
-  font-size: 40pt;
+  font-size: var(--script-size-l);
 }
 
 @media (width <= 300px) {
   .script-md {
-    font-size: 26pt;
-    line-height: 38pt;
+    font-size: var(--script-size-s);
+    line-height: 1.35;
   }
 }
