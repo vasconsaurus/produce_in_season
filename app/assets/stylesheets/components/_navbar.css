@@ -25,28 +25,32 @@
 }
 
 .nav-right {
-  display: flex;
-  flex-flow: row nowrap;
-  gap: 15px;
-  align-items: center;
-  justify-content: flex-end;
+  display: inline-block;
   text-transform: uppercase;
   font-weight: 900;
   color: var(--blue);
   font-size: var(--font-size-xs);
 }
 
-@media (width <= 500px) {
-  .nav-right {
-    flex-flow: column nowrap;
-    gap: 0;
-    align-items: flex-end;
-    text-align: right;
-  }
-}
-
 .nav-right p {
   font-weight: 900;
   font-size: var(--font-size-xs);
   line-height: 1.15;
+  display: inline;
+}
+
+@media (width <= 500px) {
+  .nav-right {
+    display: block;
+    text-align: right;
+  }
+
+  .nav-right p {
+    display: block;
+  }
+
+  .nav-right a {
+    padding: 0;
+    display: block;
+  }
 }
