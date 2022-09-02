@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--yellow);
+  background-color: var(--color--yellow);
   position: fixed;
   position: fixed;
   top: 0;
@@ -16,19 +16,15 @@
   font-family: eds-market-bold-slant, sans-serif;
   font-size: var(--font-size-s);
   line-height: 1.25;
-  color: var(--blue);
+  color: var(--color--blue);
   text-align: center;
-}
-
-.design-elements {
-  font-family: Eds Market Design Elements;
 }
 
 .nav-right {
   display: inline-block;
   text-transform: uppercase;
   font-weight: 900;
-  color: var(--blue);
+  color: var(--color--blue);
   font-size: var(--font-size-xs);
 }
 

@@ -7,17 +7,17 @@
   --font-size-m: 2.5rem;
   --font-size-l: 4rem;
   --font-size-xl: 6.5rem;
-  --light-beige: #E8DBB3;
-  --yellow: #FFD96A;
-  --red: #D92A45;
-  --light-blue: #7387EB;
-  --blue: #2347EB;
+  --color--light-beige: #E8DBB3;
+  --color--yellow: #FFD96A;
+  --color--red: #D92A45;
+  --color--light-blue: #7387EB;
+  --color--blue: #2347EB;
 }
 
 *, *::before, *::after {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 /* for debugging */
@@ -39,17 +39,17 @@ html {
 html, body { height: 100% }
 
 body {
-  background-color: var(--yellow);
+  background-color: var(--color--yellow);
   display: flex;
   flex-direction: column;
 }
 
 a, a:visited {
-  color: var(--blue);
-  text-decoration-color: var(--blue);
+  color: var(--color--blue);
+  text-decoration-color: var(--color--blue);
   transition: 0.5s ease-in-out;
 }
 
 a:hover {
-  color: var(--red);
+  color: var(--color--red);
 }

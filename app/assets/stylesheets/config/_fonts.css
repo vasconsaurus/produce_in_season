@@ -1,13 +1,13 @@
 .color-yellow {
-  color: var(--yellow);
+  color: var(--color--yellow);
 }
 
 .color-red {
-  color: var(--red);
+  color: var(--color--red);
 }
 
 .color-blue {
-  color: var(--blue);
+  color: var(--color--blue);
 }
 
 .color-white {

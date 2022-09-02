@@ -6,8 +6,8 @@
   align-items: center;
 }
 
-.button--yellow {
-  background-color: var(--yellow);
-  outline: 6px solid var(--red);
+.button--color--yellow {
+  background-color: var(--color--yellow);
+  outline: 6px solid var(--color--red);
   outline-offset: -10px;
 }

@@ -1,6 +1,6 @@
 .banner-hero {
   background-image: url("https://dm2305files.storage.live.com/y4mLTlsAOlVIbxayA4OuTrKgh5bhSouUHtvsZcoX-mh1AaD2CDTNG8b6-p5_1gwZML9FEpMOMjRKWGBskNVzDP1NtaFq4a7_R6D39cT8U7pMYOz3ys19QgQZwH4g6C0OGWv-CHTkXKYN58IpkKDjveBeCRT083wGENMnR7KsdfQ1T7xZdp0YXcj2fvBJiI9ZXVo?width=2482&height=3475&cropmode=none");
-  background-color: var(--light-beige);
+  background-color: var(--color--light-beige);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,7 +18,7 @@
 }
 
 .banner-buttons {
-  background-color: var(--red);
+  background-color: var(--color--red);
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -26,7 +26,7 @@
 }
 
 .banner-about {
-  background-color: var(--blue);
+  background-color: var(--color--blue);
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
