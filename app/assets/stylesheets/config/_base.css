@@ -7,6 +7,11 @@
   --font-size-m: 2.5rem;
   --font-size-l: 4rem;
   --font-size-xl: 6.5rem;
+  --light-beige: #E8DBB3;
+  --yellow: #FFD96A;
+  --red: #D92A45;
+  --light-blue: #7387EB;
+  --blue: #2347EB;
 }
 
 *, *::before, *::after {
@@ -28,6 +33,7 @@ html {
   - etc
    */
   font-size: 62.5%;
+  font-family: proxima-nova, sans-serif;
 }
 
 html, body { height: 100% }

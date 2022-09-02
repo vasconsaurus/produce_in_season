@@ -1,6 +1,17 @@
-html {
-  font-family: proxima-nova, sans-serif;
-  font-weight: 600;
+.color-yellow {
+  color: var(--yellow);
+}
+
+.color-red {
+  color: var(--red);
+}
+
+.color-blue {
+  color: var(--blue);
+}
+
+.color-white {
+  color: white;
 }
 
 h1 {
