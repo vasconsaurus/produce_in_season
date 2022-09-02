@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.button--color--yellow {
+.button--yellow {
   background-color: var(--color--yellow);
   outline: 6px solid var(--color--red);
   outline-offset: -10px;
