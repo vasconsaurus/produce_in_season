@@ -12,6 +12,9 @@
   --color--red: #D92A45;
   --color--light-blue: #7387EB;
   --color--blue: #2347EB;
+  --spaces-size-s:1.5rem;
+  --spaces-size-m:3rem;
+  --spaces-size-l:6rem;
 }
 
 *, *::before, *::after {
