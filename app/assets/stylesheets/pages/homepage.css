@@ -45,6 +45,6 @@
   }
 
   .banner-about__txt {
-    padding: 0 30px;
+    padding: 0 var(--spaces-size-m);
   }
 }
