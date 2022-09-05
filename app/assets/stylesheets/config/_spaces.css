@@ -1,0 +1,64 @@
+/* paddings */
+.p-top-s {
+  padding-top: var(--spaces-size-s);
+}
+
+.p-top-m {
+  padding-top: var(--spaces-size-m);
+}
+
+.p-top-l {
+  padding-top: var(--spaces-size-l);
+}
+
+.p-bottom-s {
+  padding-bottom: var(--spaces-size-s);
+}
+
+.p-bottom-m {
+  padding-bottom: var(--spaces-size-m);
+}
+
+.p-bottom-l {
+  padding-bottom: var(--spaces-size-l);
+}
+
+.p-sides-s {
+  padding-left: var(--spaces-size-s);
+  padding-right: var(--spaces-size-s);
+}
+
+.p-sides-m {
+  padding-left: var(--spaces-size-m);
+  padding-right: var(--spaces-size-m);
+}
+
+.p-sides-l {
+  padding-left: var(--spaces-size-l);
+  padding-right: var(--spaces-size-l);
+}
+
+/* margins */
+.m-top-s {
+  margin-top: var(--spaces-size-s);
+}
+
+.m-top-m {
+  margin-top: var(--spaces-size-m);
+}
+
+.m-top-l {
+  margin-top: var(--spaces-size-l);
+}
+
+.m-bottom-s {
+  margin-bottom: var(--spaces-size-s);
+}
+
+.m-bottom-m {
+  margin-bottom: var(--spaces-size-m);
+}
+
+.m-bottom-l {
+  margin-bottom: var(--spaces-size-l);
+}

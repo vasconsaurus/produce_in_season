@@ -1,0 +1,10 @@
+<section class="navbar p-top-s p-bottom-s p-sides-m">
+  <div class="logo">
+    <%= link_to t('nav.title_html'), root_path, class: 'link_action' %>
+  </div>
+  <div class="nav-right">
+    <p>procure pelo</p>
+    <%= link_to I18n.t('action.month'), item_seasons_path, class: 'link_action p-sides-s' %>
+    <%= link_to I18n.t('action.produce'), produce_items_path, class: 'link_action' %>
+  </div>
+</section>

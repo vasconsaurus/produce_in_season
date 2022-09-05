@@ -1,0 +1,70 @@
+.color-yellow {
+  color: var(--color--yellow);
+}
+
+.color-red {
+  color: var(--color--red);
+}
+
+.color-blue {
+  color: var(--color--blue);
+}
+
+.color-white {
+  color: white;
+}
+
+h1 {
+  font-family: eds-market-bold-slant, sans-serif;
+  font-size: var(--font-size-xl);
+}
+
+h2, h3, h4 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h5, h6 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 600;
+  font-size: var(--font-size-s);
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: var(--font-size-l);
+}
+
+h3 {
+  font-size: var(--font-size-m);
+}
+
+h4, h5 {
+  font-size: var(--font-size-s);
+}
+
+h6 {
+  font-size: var(--font-size-xs);
+}
+
+.script-md {
+  font-family: eds-market-bold-slant, sans-serif;
+  font-size: var(--script-size-m);
+  line-height: 1.5;
+}
+
+.script-lg {
+  font-family: eds-market-bold-slant, sans-serif;
+  font-size: var(--script-size-l);
+}
+
+@media (width <= 300px) {
+  .script-md {
+    font-size: var(--script-size-s);
+    line-height: 1.35;
+  }
+}

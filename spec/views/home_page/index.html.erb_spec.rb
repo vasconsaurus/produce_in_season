@@ -10,6 +10,6 @@ RSpec.describe 'home_page/index', type: :view do
 
   it 'displays the links' do
     render
-    expect(rendered).to match(/Procure/)
+    expect(rendered).to match(/procure/)
   end
 end

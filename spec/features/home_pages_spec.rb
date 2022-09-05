@@ -8,20 +8,15 @@ RSpec.describe 'HomePages', type: :feature do
     expect(page).to have_current_path(root_path)
   end
 
-  it 'expects index to have a title' do
-    visit(root_path)
-    expect(page).to have_css('h1')
-  end
-
   it 'expects link to navigate to search by month' do
     visit(root_path)
-    click_link('Procure pelo mês')
+    click_link('mês')
     expect(page).to have_current_path(item_seasons_path)
   end
 
   it 'expects link to navigate to search by produce' do
     visit(root_path)
-    click_link('Procure pelo produto')
+    click_link('item')
     expect(page).to have_current_path(produce_items_path)
   end
 end

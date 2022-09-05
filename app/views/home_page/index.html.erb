@@ -1,5 +1,27 @@
-<h1><%= I18n.t('root.title') %></h1>
-<h3><%= I18n.t('root.about') %></h3>
+<section class="banner-hero p-top-l p-bottom-l p-sides-m">
+  <div class="script-md banner-hero__txt"><%= I18n.t('root.hero') %></div>
+</section>
 
-<p><%= link_to I18n.t('action.search_by_month').capitalize, item_seasons_path, class: 'link_action' %></p>
-<p><%= link_to I18n.t('action.search_by_produce').capitalize, produce_items_path, class: 'link_action' %></p>
+<section class="banner-buttons p-top-m p-bottom-l p-sides-m">
+  <div class="p-bottom-m">
+    <h3 class="color-yellow"><%= I18n.t('action.search_by') %></h3>
+  </div>
+  <div class="button-holder">
+      <%= link_to I18n.t('action.month').capitalize, item_seasons_path, class: 'link_action button button--yellow script-lg rotate-minus-5' %>
+      <%= link_to I18n.t('action.produce').capitalize, produce_items_path, class: 'link_action button button--yellow script-lg rotate-zero' %>
+  </div>
+</section>
+
+<section class="banner-about p-top-m p-bottom-l">
+  <%= image_tag "https://dm2305files.storage.live.com/y4mYqMHpvb-2aKz6Q7P3jqr0EugNasCWn476P-zPwozPAPAxnKwadlz3S7DUa3FvDB2XLQdEI8rOvSkZTcITqKiIurRon4Fywldfm-p6DTsaNLzfXqXZUkFrkUVwxOswKTPKuMkElCHTjJZdNxSLwkr7bXSW3HyRvrI6J2MOl813zCFrm9YT9yP0pPecIaR9LZY?width=285&height=1217&cropmode=none", class: 'banner-about-img img-left' %>
+  <div class="banner-about__txt">
+    <div class="p-bottom-m">
+        <h3 class="color-white"><%= I18n.t('root.about_title') %></h3>
+    </div>
+    <div>
+      <p class="color-white p-bottom-m"><%= I18n.t('root.about_text_p1') %></p>
+      <p class="color-white"><%= I18n.t('root.about_text_p2') %></p>
+    </div>
+  </div>
+  <%= image_tag "https://dm2305files.storage.live.com/y4m9pwZq1iIqcdRBSt8VZEwJN6qA1UvxiiNXGFPETpPL4z08lKRDfpGUFuQ7CsrpYE0Vpou1Xgz-Gz4LcEd2mTKZyWSlfjXPzvinyXGo9SgxZwpiKxf6HWX6ui_Bn0s0uFQAd9Qxvccnz0ulEzPGQNW9CwIdfJtYP_89wi8HPn6ZdpqE9zWtZWO3GOMoJAwJgVF?width=269&height=1217&cropmode=none", class: 'banner-about-img img-right' %>
+</section>
