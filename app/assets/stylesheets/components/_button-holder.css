@@ -1,0 +1,8 @@
+.button-holder {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: var(--spaces-size-m);
+}

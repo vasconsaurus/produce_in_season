@@ -8,10 +8,15 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <link rel="stylesheet" href="https://use.typekit.net/mxd1nlu.css">
   </head>
 
   <body>
     <% if notice %><div id="notice"><%= notice %></div><% end %>
-    <%= yield %>
+    <%= render 'shared/navbar' %>
+    <div class="content">
+      <%= yield %>
+    </div>
+    <%= render 'shared/footer' %>
   </body>
 </html>

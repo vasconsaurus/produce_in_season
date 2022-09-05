@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+@import "components/button-holder";
+@import "components/buttons";
+@import "components/footer";
+@import "components/navbar";
+@import "config/base";
+@import "config/fonts";
+@import "config/rotations";
+@import "config/spaces";
+@import "pages/homepage.css";
+
+.content {
+  flex: 1 0 auto;
+}
