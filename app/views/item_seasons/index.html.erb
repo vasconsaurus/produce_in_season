@@ -1,9 +1,9 @@
-<h1 class="page__title"> <%= I18n.t("item_season.index.title") %> </h1>
+<div class="content background-color-blue">
+  <h1 class="page__title banner-small"> <%= I18n.t("item_season.index.title") %> </h1>
 
-<table class="produce-table">
-  <% ItemSeason::MONTHS.each do |month_index| %>
-    <tr>
-      <td class="produce-table__month"><%= link_to (formatted_month_name(month_index)).capitalize, item_season_path(month_index), class: "link_action month_link" %></td>
-    </tr>
-  <%  end %>
-</table>
+  <div class="button-holder p-top-l p-bottom-l">
+    <% ItemSeason::MONTHS.each do |month_index| %>
+      <%= link_to (formatted_month_short(month_index)).capitalize, item_season_path(month_index), class: "link_action month_link button button--yellow script-lg" %>
+    <%  end %>
+  </div>
+</div>
