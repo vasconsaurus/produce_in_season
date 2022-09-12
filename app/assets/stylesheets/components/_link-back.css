@@ -1,0 +1,9 @@
+a.back , a.back:visited {
+  color: var(--color--yellow);
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+a.back:hover {
+  color: var(--color--red);
+}

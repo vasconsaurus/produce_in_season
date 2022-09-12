@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+}
+
+.card-inner {
+  background-color: var(--color--yellow);
+  height: 10rem;
+  width: 30rem;
+  padding: var(--spaces-size-s);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 0.6rem solid var(--color--red);
+  outline-offset: -1rem;
+}
+
+.produce-category {
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  font-family: eds-market-bold-slant, sans-serif;
+  color: var(--color--yellow);
+  font-size: var(--script-size-xs);
+}

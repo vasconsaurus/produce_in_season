@@ -1,15 +1,17 @@
 <div class="content background-color-blue">
-  <h1 class="page__title banner-small"> <%= formatted_month_name(@item_season.month_index).capitalize %> </h1>
+  <h1 class="page__title banner-small m-bottom-m"> <%= formatted_month_name(@item_season.month_index).capitalize %> </h1>
 
-  <%= link_to I18n.t("action.back"), :back, class: "link_action back color-yellow" %>
+  <div class="links p-sides-m">
+    <h4><%= link_to I18n.t("action.back").upcase, :back, class: "link_action back" %></h4>
+  </div>
 
-  <div class="card-holder">
+  <div class="card-holder p-top-l p-bottom-l p-sides-s">
     <% @item_season_produces.find_each do |produce| %>
       <div class="card">
         <div class="card-inner">
-          <h4 class="produce-table__name"><%= link_to I18n.t("produce_items.names.#{produce.name}").capitalize, produce, class: "link_action"  %></h4>
+          <h4 class="produce-name"><%= link_to I18n.t("produce_items.names.#{produce.name}"), produce, class: "link_action"  %></h4>
         </div>
-          <td class="produce-table__category"><%= I18n.t("produce_items.categories.#{produce.category}") %></td>
+          <div class="produce-category"><%= I18n.t("produce_items.categories.#{produce.category}") %></div>
       </div>
     <% end %>
   </div>
