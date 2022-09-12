@@ -1,0 +1,32 @@
+a.back , a.back:visited {
+  color: var(--color--yellow);
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+a.back:hover {
+  color: var(--color--red);
+}
+
+.nav-actions-holder{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-actions-months {
+  display: inline-block;
+}
+
+.nav-actions-months h4, .nav-actions-months i {
+  display: inline;
+}
+
+.nav-actions-months .fa-solid {
+  color: var(--color--yellow);
+  font-size: var(--font-size-m);
+  transition: 0.5s ease-in-out;
+}
+
+.nav-actions-months .fa-solid:hover {
+  color: var(--color--red);
+}

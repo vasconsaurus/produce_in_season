@@ -1,11 +1,16 @@
 <div class="content background-color-blue">
   <h1 class="page__title banner-small m-bottom-m"> <%= formatted_month_name(@item_season.month_index).capitalize %> </h1>
 
-  <div class="links p-sides-m">
+  <div class="nav-actions-holder p-sides-m">
     <h4><%= link_to I18n.t("action.back").upcase, :back, class: "link_action back" %></h4>
-    <div class="months-nav">
-      <h4><%= link_to "Mês anterior", "#{@item_season.month_index - 1}", class: "link_action back" %></h4>
-      <h4><%= link_to "Mês seguinte", "#{@item_season.month_index + 1}", class: "link_action back" %></h4>
+    <div class="nav-actions-months">
+      <%= link_to item_season_path(@item_season.month_index - 1) do %>
+        <i class="fa-solid fa-arrow-left-long"></i>
+      <% end %>
+      <h4 class="color-yellow p-sides-s"><%= I18n.t("action.month") %></h4>
+      <%= link_to item_season_path(@item_season.month_index + 1) do %>
+        <i class="fa-solid fa-arrow-right-long"></i>
+      <% end %>
     </div>
   </div>
 

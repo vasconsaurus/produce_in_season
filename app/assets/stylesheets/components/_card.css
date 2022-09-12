@@ -12,6 +12,7 @@
   justify-content: center;
   outline: 0.6rem solid var(--color--red);
   outline-offset: -1rem;
+  text-align: center;
 }
 
 .produce-category {
@@ -20,4 +21,9 @@
   font-family: eds-market-bold-slant, sans-serif;
   color: var(--color--yellow);
   font-size: var(--script-size-xs);
+  letter-spacing: 0.15rem;
+}
+
+.produce-name a, .produce-name a:visited {
+  color: black;
 }
