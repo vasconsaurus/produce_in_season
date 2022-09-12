@@ -2,7 +2,7 @@
   <h1 class="page__title banner-small m-bottom-m"> <%= formatted_month_name(@item_season.month_index).capitalize %> </h1>
 
   <div class="nav-actions-holder p-sides-m">
-    <h4><%= link_to I18n.t("action.back").upcase, :back, class: "link_action back" %></h4>
+    <h4><%= link_to I18n.t("action.back").upcase, item_seasons_path, class: "link_action back" %></h4>
     <div class="nav-actions-months">
       <%= link_to item_season_path(@item_season.month_index == 1 ? 12 : @item_season.month_index - 1) do %>
         <i class="fa-solid fa-arrow-left-long"></i>
