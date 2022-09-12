@@ -26,4 +26,5 @@
 
 .produce-name a, .produce-name a:visited {
   color: black;
+  text-decoration-color: var(--color--red);
 }

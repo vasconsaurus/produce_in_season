@@ -4,7 +4,7 @@ class ProduceItemsController < ApplicationController
   before_action :set_produce_item, only: %i[show]
 
   def index
-    @produce_items = params[:sort] ? ProduceItem.order(params[:sort]) : ProduceItem.order(:name)
+    @produce_items = ProduceItem.order(params[:sort]) || ProduceItem.order(:name)
   end
 
   def show; end
