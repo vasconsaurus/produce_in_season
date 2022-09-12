@@ -14,15 +14,15 @@
  *= require_self
  */
 
+@import "config/base";
+@import "config/colors";
+@import "config/fonts";
+@import "config/rotations";
+@import "config/spaces";
 @import "components/banner-small";
 @import "components/button-holder";
 @import "components/buttons";
 @import "components/content";
 @import "components/footer";
 @import "components/navbar";
-@import "config/base";
-@import "config/colors";
-@import "config/fonts";
-@import "config/rotations";
-@import "config/spaces";
 @import "pages/homepage.css";
