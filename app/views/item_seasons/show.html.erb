@@ -3,6 +3,10 @@
 
   <div class="links p-sides-m">
     <h4><%= link_to I18n.t("action.back").upcase, :back, class: "link_action back" %></h4>
+    <div class="months-nav">
+      <h4><%= link_to "Mês anterior", "#{@item_season.month_index - 1}", class: "link_action back" %></h4>
+      <h4><%= link_to "Mês seguinte", "#{@item_season.month_index + 1}", class: "link_action back" %></h4>
+    </div>
   </div>
 
   <div class="card-holder p-top-l p-bottom-l p-sides-s">
