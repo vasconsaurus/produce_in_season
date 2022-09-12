@@ -1,7 +1,7 @@
 <div class="content background-color-blue">
   <h1 class="page__title banner-small"> <%= I18n.t("item_season.index.title") %> </h1>
 
-  <div class="button-holder p-top-l p-bottom-l">
+  <div class="button-holder p-top-l p-bottom-l p-sides-s">
     <% ItemSeason::MONTHS.each do |month_index| %>
       <%= link_to (formatted_month_short(month_index)).capitalize, item_season_path(month_index),
           class: "link_action month_link button button--yellow script-lg m-top-s m-bottom-s #{randomized_rotation}" %>
