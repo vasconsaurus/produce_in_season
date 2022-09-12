@@ -4,4 +4,6 @@
   background-size: 100vw;
   color: white;
   text-align: center;
+  padding-top: var(--spaces-size-m);
+  padding-bottom: var(--spaces-size-m);
 }
