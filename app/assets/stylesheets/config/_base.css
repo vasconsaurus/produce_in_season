@@ -1,0 +1,61 @@
+:root {
+  --script-size-s: 3.25rem;
+  --script-size-m: 4.5rem;
+  --script-size-l: 5.5rem;
+  --font-size-xs: 1.6rem;
+  --font-size-s: 2rem;
+  --font-size-m: 2.5rem;
+  --font-size-l: 4rem;
+  --font-size-xl: 6.5rem;
+  --color--light-beige: #E8DBB3;
+  --color--yellow: #FFD96A;
+  --color--red: #D92A45;
+  --color--light-blue: #7387EB;
+  --color--blue: #2347EB;
+  --spaces-size-s:1.5rem;
+  --spaces-size-m:3rem;
+  --spaces-size-l:6rem;
+  --size-nav:10rem;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* for debugging */
+.wireframe *, .wireframe *::before, .wireframe *::after {
+  border: 0.5px solid blue;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+    /*
+  This allows us to use readable rems.
+  - 24px becomes 2.4rem
+  - 10px becomes 1rem
+  - etc
+   */
+  font-size: 62.5%;
+  font-family: proxima-nova, sans-serif;
+}
+
+body {
+  background-color: var(--color--yellow);
+  display: flex;
+  flex-direction: column;
+}
+
+a, a:visited {
+  color: var(--color--blue);
+  text-decoration-color: var(--color--blue);
+  transition: 0.5s ease-in-out;
+}
+
+a:hover {
+  color: var(--color--red);
+}

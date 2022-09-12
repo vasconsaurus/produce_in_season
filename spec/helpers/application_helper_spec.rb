@@ -18,4 +18,10 @@ RSpec.describe ApplicationHelper, type: :helper do
       expect(helper.formatted_month_name(1)).to eq('janeiro')
     end
   end
+
+  describe 'short month name' do
+    it 'changes the month_index to an abbr. month_name' do
+      expect(helper.formatted_month_short(1)).to eq('jan')
+    end
+  end
 end

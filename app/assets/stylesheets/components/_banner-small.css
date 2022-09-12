@@ -1,0 +1,9 @@
+.banner-small {
+  margin-top: var(--size-nav);
+  background-image: url("https://dsm01pap009files.storage.live.com/y4mcm1lmTkF2KIVBJC3iu7OT4Ppioc9PJDcUXJXpY6C71sEwZuYlugJi8UCOmoRCEgrxmsxmGVMC86MWv4ftWsR5ZzoeSQBlhSroZ_SG1Th-S_Nd33jhwnjJ_m0T-p2KR8tLbeIDMPvPV4Y33ddsmRVNCMJKZfI997J_-Rp8cjT5rEPs_ss58F1UJBCTzqHhahI?width=1600&height=1200&cropmode=none");
+  background-size: 100vw;
+  color: white;
+  text-align: center;
+  padding-top: var(--spaces-size-m);
+  padding-bottom: var(--spaces-size-m);
+}

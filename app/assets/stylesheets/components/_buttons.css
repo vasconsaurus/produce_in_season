@@ -1,0 +1,13 @@
+.button {
+  width: 20rem;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button--yellow {
+  background-color: var(--color--yellow);
+  outline: 0.6rem solid var(--color--red);
+  outline-offset: -1rem;
+}

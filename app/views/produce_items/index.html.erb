@@ -9,7 +9,7 @@
       <tr>
         <td class="produce-table__name"><%= I18n.t("produce_items.names.#{produce.name}").capitalize %></td>
         <td class="produce-table__category"><%= I18n.t("produce_items.categories.#{produce.category}") %></td>
-        <td class="produce-table__link_action"><%= link_to I18n.t('action.show'), produce, class: "link_action" %></td>
+        <td class="produce-table__link_action"><%= link_to I18n.t('action.show'), produce, class: "link_action produce_link" %></td>
       </tr>
     <% end %>
 </table>
