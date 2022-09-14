@@ -12,7 +12,7 @@ module ItemSeasonsHelper
     when 4, 9
       'rotate-minus-10'
     else
-      'rotate-zero'
+      'rotate-0'
     end
   end
 end
