@@ -3,7 +3,7 @@
 require 'rails_helper'
 
 RSpec.describe ItemSeasonsHelper, type: :helper do
-  describe 'rotation' do
+  describe '#rotation' do
     it 'adds rotation +10 to month with index 12' do
       expect(helper.rotation(12)).to eq('rotate-plus-10')
     end
