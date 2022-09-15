@@ -3,8 +3,10 @@
 
   <div class="button-holder p-top-l p-bottom-l p-sides-s">
     <% ItemSeason::MONTHS.each do |month_index| %>
-      <%= link_to (formatted_month_short(month_index)).capitalize, item_season_path(month_index),
-          class: "link_action month_link button button--yellow script-lg m-top-s m-bottom-s #{rotation(month_index)}" %>
-    <%  end %>
+      <% if month_index <= 12 %>
+        <%= link_to (formatted_month_short(month_index)), item_season_path(month_index),
+              class: "link_action month_link button button--yellow script-lg m-top-s m-bottom-s #{rotation(month_index)}" %>
+      <%  end %>
+    <% end %>
   </div>
 </div>
