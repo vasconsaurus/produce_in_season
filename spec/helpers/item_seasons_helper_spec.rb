@@ -22,5 +22,8 @@ RSpec.describe ItemSeasonsHelper, type: :helper do
         expect(helper.rotation(example[:index])).to eq("rotate-#{example[:rotation]}")
       end
     end
+    it 'adds 0-rotation to numbers between 13 and 100' do
+      expect(helper.rotation(Random.new.rand(13..100))).to eq('rotate-0')
+    end
   end
 end
