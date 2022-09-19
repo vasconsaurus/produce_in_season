@@ -23,7 +23,11 @@ RSpec.describe ItemSeasonsHelper, type: :helper do
       end
     end
     it 'raises error if month index bigger than 12' do
-      expect { helper.rotation(rand(13..100)) }.to raise_error(RuntimeError, 'month-index must be between 1 and 12')
+      expect { helper.rotation(13) }.to raise_error(RuntimeError, 'month-index must be between 1 and 12')
+    end
+
+    it 'raises error if month index smaller than 1' do
+      expect { helper.rotation(0) }.to raise_error(RuntimeError, 'month-index must be between 1 and 12')
     end
   end
 end

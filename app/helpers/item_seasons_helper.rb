@@ -2,8 +2,8 @@
 
 module ItemSeasonsHelper
   def rotation(month_index)
-    raise 'month-index must be between 1 and 12' unless 1..12.include?(month_index)
-    
+    raise 'month-index must be between 1 and 12' if month_index > 12 || month_index < 1
+
     case month_index
     when 1, 6
       'rotate-plus-5'
