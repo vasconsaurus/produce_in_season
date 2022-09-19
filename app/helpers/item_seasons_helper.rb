@@ -11,8 +11,10 @@ module ItemSeasonsHelper
       'rotate-plus-10'
     when 4, 9
       'rotate-minus-10'
-    else
+    when 2, 3, 7, 8, 10, 11
       'rotate-0'
+    else
+      raise 'month-index must be between 1 and 12'
     end
   end
 end
