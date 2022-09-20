@@ -37,6 +37,20 @@ pt-BR:
       - outubro
       - novembro
       - dezembro
+    month_short:
+      -
+      - jan
+      - fev
+      - mar
+      - abr
+      - mai
+      - jun
+      - jul
+      - ago
+      - set
+      - out
+      - nov
+      - dez
   produce_item:
     index:
       title: Itens

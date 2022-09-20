@@ -14,9 +14,7 @@
   <body>
     <% if notice %><div id="notice"><%= notice %></div><% end %>
     <%= render 'shared/navbar' %>
-    <div class="content">
-      <%= yield %>
-    </div>
+    <%= yield %>
     <%= render 'shared/footer' %>
   </body>
 </html>
