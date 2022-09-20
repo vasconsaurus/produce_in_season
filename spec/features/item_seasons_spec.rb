@@ -26,7 +26,7 @@ RSpec.describe 'Item Seasons', type: :feature do
   it 'expects "show" link to navigate to show' do
     visit(item_seasons_path)
     first('div a.month_link').click
-    expect(page).to have_css('h4.produce-name')
+    expect(page).to have_css('table tr td.produce-table__name')
   end
 
   it 'expects "show" link to navigate to show and back to index' do
