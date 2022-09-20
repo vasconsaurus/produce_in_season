@@ -8,8 +8,4 @@ module ApplicationHelper
   def formatted_month_short(month_index)
     I18n.t('date.month_short')[month_index]
   end
-
-  def formatted_month_short(month_index)
-    I18n.t('date.month_short')[month_index].downcase
-  end
 end
