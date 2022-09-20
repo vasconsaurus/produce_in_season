@@ -14,7 +14,7 @@ RSpec.describe 'Item Seasons', type: :feature do
 
   it 'expects index to have a month' do
     visit(item_seasons_path)
-    expect(page).to have_css('table tr td.produce-table__month')
+    expect(page).to have_css('div a.link_action')
   end
 
   it 'expects the page to have one link per month' do
@@ -25,13 +25,13 @@ RSpec.describe 'Item Seasons', type: :feature do
 
   it 'expects "show" link to navigate to show' do
     visit(item_seasons_path)
-    first('table tr td a.link_action').click
+    first('div a.month_link').click
     expect(page).to have_css('table tr td.produce-table__name')
   end
 
   it 'expects "show" link to navigate to show and back to index' do
     visit(item_seasons_path)
-    first('table tr td a.link_action').click
+    first('div a.month_link').click
     find('.back').click
     expect(page).to have_current_path(item_seasons_path)
   end

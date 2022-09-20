@@ -15,6 +15,7 @@
   --spaces-size-s:1.5rem;
   --spaces-size-m:3rem;
   --spaces-size-l:6rem;
+  --size-nav:10rem;
 }
 
 *, *::before, *::after {
@@ -26,6 +27,10 @@
 /* for debugging */
 .wireframe *, .wireframe *::before, .wireframe *::after {
   border: 0.5px solid blue;
+}
+
+html, body {
+  height: 100%;
 }
 
 html {
