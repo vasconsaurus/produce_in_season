@@ -3,7 +3,6 @@
 require 'rails_helper'
 
 RSpec.describe ItemSeasonsHelper, type: :helper do
-
   let(:item_season_jan) { ItemSeason.create(produce_item_id: 1, month_index: 1, country_code: 'br') }
   let(:item_season_feb) { ItemSeason.create(produce_item_id: 1, month_index: 2, country_code: 'br') }
   let(:item_season_dec) { ItemSeason.create(produce_item_id: 1, month_index: 12, country_code: 'br') }
