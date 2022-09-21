@@ -3,6 +3,11 @@
 require 'rails_helper'
 
 RSpec.describe ItemSeasonsHelper, type: :helper do
+
+  let(:item_season_jan) { ItemSeason.create(produce_item_id: 1, month_index: 1, country_code: 'br') }
+  let(:item_season_feb) { ItemSeason.create(produce_item_id: 1, month_index: 2, country_code: 'br') }
+  let(:item_season_dec) { ItemSeason.create(produce_item_id: 1, month_index: 12, country_code: 'br') }
+
   describe '#rotation' do
     [
       { index: 1, rotation: 'plus-5' },
@@ -28,6 +33,26 @@ RSpec.describe ItemSeasonsHelper, type: :helper do
 
     it 'raises error if month index smaller than 1' do
       expect { helper.rotation(0) }.to raise_error(RuntimeError, 'month-index must be between 1 and 12')
+    end
+  end
+
+  describe '#month_navigation_previous' do
+    it 'goes to the previous month if item_season.month_index is bigger than 1' do
+      expect(helper.month_navigation_previous(item_season_feb)).to eq(1)
+    end
+
+    it 'goes to the december if item_season.month_index is 1' do
+      expect(helper.month_navigation_previous(item_season_jan)).to eq(12)
+    end
+  end
+
+  describe '#month_navigation_next' do
+    it 'goes to the next month if item_season.month_index is smaller than 12' do
+      expect(helper.month_navigation_next(item_season_feb)).to eq(3)
+    end
+
+    it 'goes to the january if item_season.month_index is 12' do
+      expect(helper.month_navigation_next(item_season_dec)).to eq(1)
     end
   end
 end

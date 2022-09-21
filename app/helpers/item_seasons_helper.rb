@@ -17,4 +17,12 @@ module ItemSeasonsHelper
       'rotate-0'
     end
   end
+
+  def month_navigation_previous(item_season)
+    item_season.month_index == 1 ? 12 : item_season.month_index - 1
+  end
+
+  def month_navigation_next(item_season)
+    item_season.month_index == 12 ? 1 : item_season.month_index + 1
+  end
 end
