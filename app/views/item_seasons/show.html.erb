@@ -5,11 +5,11 @@
     <h4><%= link_to I18n.t("action.back").upcase, item_seasons_path, class: "link_action back" %></h4>
     <div class="nav-actions-months">
       <%= link_to item_season_path(month_navigation_previous(@item_season)) do %>
-        <i class="fa-solid fa-arrow-left-long"></i>
+        <i class="fa-solid fa-arrow-left-long" title="arrow-navigate-left" aria-hidden="true" aria-label="arrow-navigate-left"></i>
       <% end %>
       <h4 class="color-yellow p-sides-s"><%= I18n.t("action.month") %></h4>
       <%= link_to item_season_path(month_navigation_next(@item_season)) do %>
-        <i class="fa-solid fa-arrow-right-long"></i>
+        <i class="fa-solid fa-arrow-right-long" title="arrow-navigate-right" aria-hidden="true" aria-label="arrow-navigate-right"></i>
       <% end %>
     </div>
   </div>
