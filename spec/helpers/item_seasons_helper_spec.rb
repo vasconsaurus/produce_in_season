@@ -32,9 +32,9 @@ RSpec.describe ItemSeasonsHelper, type: :helper do
   end
 
   context 'when navigating between the months' do
-    let(:item_season_jan) { ItemSeason.new(produce_item_id: 1, month_index: 1, country_code: 'br') }
-    let(:item_season_feb) { ItemSeason.new(produce_item_id: 1, month_index: 2, country_code: 'br') }
-    let(:item_season_dec) { ItemSeason.new(produce_item_id: 1, month_index: 12, country_code: 'br') }
+    let(:item_season_jan) { build(:item_season) }
+    let(:item_season_feb) { build(:item_season, month_index: 2) }
+    let(:item_season_dec) { build(:item_season, month_index: 12) }
 
     describe '#month_navigation_previous' do
       it 'goes to the previous month if item_season.month_index is bigger than 1' do
