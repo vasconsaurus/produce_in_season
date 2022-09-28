@@ -2,7 +2,7 @@
 
 FactoryBot.define do
   factory :item_season do
-    produce_item_id { 1 }
+    produce_item_id { build(:produce_item) }
     month_index { 1 }
     country_code { 'br' }
   end
