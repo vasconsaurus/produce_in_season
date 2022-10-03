@@ -30,4 +30,30 @@ RSpec.describe ItemSeasonsHelper, type: :helper do
       expect { helper.rotation(0) }.to raise_error(RuntimeError, 'month-index must be between 1 and 12')
     end
   end
+
+  context 'when navigating between the months' do
+    let(:item_season_jan) { build(:item_season) }
+    let(:item_season_feb) { build(:item_season, month_index: 2) }
+    let(:item_season_dec) { build(:item_season, month_index: 12) }
+
+    describe '#month_navigation_previous' do
+      it 'goes to the previous item_season.month_index if item_season.month_index is bigger than 1' do
+        expect(helper.month_navigation_previous(item_season_feb)).to eq(1)
+      end
+
+      it 'goes to item_season.month_index 12 if item_season.month_index is 1' do
+        expect(helper.month_navigation_previous(item_season_jan)).to eq(12)
+      end
+    end
+
+    describe '#month_navigation_next' do
+      it 'goes to the next item_season.month_index if item_season.month_index is smaller than 12' do
+        expect(helper.month_navigation_next(item_season_feb)).to eq(3)
+      end
+
+      it 'goes to item_season.month_index 1 if item_season.month_index is 12' do
+        expect(helper.month_navigation_next(item_season_dec)).to eq(1)
+      end
+    end
+  end
 end

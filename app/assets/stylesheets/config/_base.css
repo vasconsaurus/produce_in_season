@@ -1,4 +1,5 @@
 :root {
+  --script-size-xs: 1.75rem;
   --script-size-s: 3.25rem;
   --script-size-m: 4.5rem;
   --script-size-l: 5.5rem;
@@ -53,6 +54,7 @@ body {
 a, a:visited {
   color: var(--color--blue);
   text-decoration-color: var(--color--blue);
+  text-decoration-thickness: 0.35rem;
   transition: 0.5s ease-in-out;
 }
 
