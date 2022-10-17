@@ -14,6 +14,6 @@ RSpec.describe 'produce_items/index', type: :view do
     ProduceItem.create!(name: 'graviola', category: 'fruit')
     assign(:produce_items, ProduceItem.all)
     render
-    expect(rendered).to match(/Goiaba/)
+    expect(rendered).to match(/goiaba/i)
   end
 end

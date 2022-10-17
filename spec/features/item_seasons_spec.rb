@@ -14,7 +14,7 @@ RSpec.describe 'Item Seasons', type: :feature do
 
   it 'expects index to have a month' do
     visit(item_seasons_path)
-    expect(page).to have_css('div a.link_action')
+    expect(page).to have_css('div a.month_link')
   end
 
   it 'expects the page to have one link per month' do
