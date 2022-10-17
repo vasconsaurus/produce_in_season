@@ -14,7 +14,7 @@ RSpec.describe 'ProduceItems', type: :feature do
 
   it 'expects index to have a produce with a name' do
     visit(produce_items_path)
-    expect(page).to have_css('div a.produce-name')
+    expect(page).to have_css('h4.produce-name')
   end
 
   it 'expects index to have a produce with a category' do
@@ -22,21 +22,8 @@ RSpec.describe 'ProduceItems', type: :feature do
     expect(page).to have_css('div.produce-category')
   end
 
-  it 'expects produce link to be visible' do
+  it 'expects index to have a produce with one or more months' do
     visit(produce_items_path)
-    find_link(class: ['produce-name'], visible: :all).visible?
-  end
-
-  it 'expects link to navigate to show and back to index' do
-    visit(produce_items_path)
-    find('a.produce-name').click
-    find('.back').click
-    expect(page).to have_current_path(produce_items_path)
-  end
-
-  it 'expects link to navigate to show and show to have a month' do
-    visit(produce_items_path)
-    find('a.produce-name').click
-    expect(page).to have_css('table tr td.produce-table__month')
+    expect(page).to have_css('div.card-inner__month-name')
   end
 end
