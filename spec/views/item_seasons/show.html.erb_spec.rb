@@ -21,6 +21,6 @@ RSpec.describe 'item_seasons/show', type: :view do
 
   it 'displays the produces' do
     render
-    expect(rendered).to match(/Carambola/)
+    expect(rendered).to match(/carambola/i)
   end
 end
