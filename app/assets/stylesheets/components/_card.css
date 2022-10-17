@@ -4,10 +4,11 @@
 
 .card-inner {
   background-color: var(--color--yellow);
-  height: 10rem;
+  min-height: 10rem;
   width: 30rem;
-  padding: var(--spaces-size-s);
+  padding: var(--spaces-size-m);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   outline: 0.6rem solid var(--color--red);
@@ -27,4 +28,11 @@
 .produce-name a, .produce-name a:visited {
   color: black;
   text-decoration-color: var(--color--red);
+}
+
+.card-inner__month-name {
+  font-family: eds-market-bold-slant, sans-serif;
+  font-size: var(--script-size-xs);
+  color: var(--color--red);
+  line-height: 1.5;
 }

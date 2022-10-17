@@ -10,9 +10,9 @@
       <div class="card">
         <div class="card-inner">
           <h4 class="produce-name"><%= I18n.t("produce_items.names.#{produce.name}") %></h4>
-          <div>
+          <div class="card-inner__month-name">
             <%= produce.item_seasons.find_each do |item_season| %>
-              <%= formatted_month_name(item_season.month_index) %> /
+              <%= formatted_month_list(produce, item_season) %>
             <% end %>
           </div>
         </div>
