@@ -9,9 +9,9 @@ RSpec.describe ProduceItemsHelper, type: :helper do
 
     describe '#formatted_month_name' do
       before do
-        create(:item_season, produce_item_id: produce_item.id, month_index: 1)
-        create(:item_season, produce_item_id: produce_item.id, month_index: 2)
-        create(:item_season, produce_item_id: produce_item_two.id, month_index: 3)
+        create(:item_season, produce_item: produce_item, month_index: 1)
+        create(:item_season, produce_item: produce_item, month_index: 2)
+        create(:item_season, produce_item: produce_item_two, month_index: 3)
       end
 
       it 'adds / to the string, if its not the last or only month' do
