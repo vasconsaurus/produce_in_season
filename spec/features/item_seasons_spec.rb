@@ -5,7 +5,7 @@ require 'rails_helper'
 RSpec.describe 'Item Seasons', type: :feature do
   let(:produce_item) { ProduceItem.create(name: 'carambola', category: 'fruit') }
 
-  before { ItemSeason.create(produce_item_id: produce_item.id, month_index: 1, country_code: 'br') }
+  before { ItemSeason.create(produce_item_id: produce_item.id, month_index: 1, country_code: 'BR') }
 
   it 'visits the item seasons index' do
     visit(item_seasons_path)

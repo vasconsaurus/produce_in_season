@@ -4,7 +4,7 @@ require 'rails_helper'
 
 RSpec.describe 'item_seasons/show', type: :view do
   let!(:item_season_produces) { ProduceItem.create(name: 'carambola', category: 'fruit') }
-  let!(:item_season) { ItemSeason.create(produce_item_id: item_season_produces.id, month_index: 1, country_code: 'br') }
+  let!(:item_season) { ItemSeason.create(produce_item_id: item_season_produces.id, month_index: 1, country_code: 'BR') }
 
   before do
     assign(:item_season, item_season)
