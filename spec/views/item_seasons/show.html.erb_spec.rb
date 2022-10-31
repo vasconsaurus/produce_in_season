@@ -3,7 +3,7 @@
 require 'rails_helper'
 
 RSpec.describe 'item_seasons/show', type: :view do
-  let!(:item_season_produces) { ProduceItem.create(name: 'carambola', category: 'fruit') }
+  let!(:item_season_produces) { ProduceItem.create(name: 'morango', category: 'fruit') }
   let!(:item_season) { ItemSeason.create(produce_item_id: item_season_produces.id, month_index: 1, country_code: 'BR') }
 
   before do
@@ -21,6 +21,6 @@ RSpec.describe 'item_seasons/show', type: :view do
 
   it 'displays the produces' do
     render
-    expect(rendered).to match(/carambola/i)
+    expect(rendered).to match(/morango/i)
   end
 end

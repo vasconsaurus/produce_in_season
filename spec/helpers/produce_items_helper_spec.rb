@@ -4,14 +4,14 @@ require 'rails_helper'
 
 RSpec.describe ProduceItemsHelper, type: :helper do
   context 'when viewing the produce items index' do
-    let!(:produce_item) { ProduceItem.create(name: 'caqui', category: 'fruit') }
-    let!(:produce_item_two) { ProduceItem.create(name: 'quincam', category: 'fruit') }
+    let!(:produce_item) { create(:produce_item) }
+    let!(:produce_item_two) { create(:produce_item) }
 
     describe '#formatted_month_name' do
       before do
-        ItemSeason.create(produce_item_id: produce_item.id, month_index: 1, country_code: 'BR')
-        ItemSeason.create(produce_item_id: produce_item.id, month_index: 2, country_code: 'BR')
-        ItemSeason.create(produce_item_id: produce_item_two.id, month_index: 3, country_code: 'BR')
+        create(:item_season, produce_item_id: produce_item.id, month_index: 1)
+        create(:item_season, produce_item_id: produce_item.id, month_index: 2)
+        create(:item_season, produce_item_id: produce_item_two.id, month_index: 3)
       end
 
       it 'adds / to the string, if its not the last or only month' do
