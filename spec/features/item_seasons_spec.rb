@@ -8,7 +8,7 @@ RSpec.describe 'Item Seasons', type: :feature do
       :produce_item,
       name: 'morango',
       category: 'fruit',
-      item_seasons: [build(:item_season)]
+      item_seasons: [create(:item_season)]
     )
   end
 
