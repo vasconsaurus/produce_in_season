@@ -4,15 +4,13 @@ require 'rails_helper'
 
 RSpec.describe 'Item Seasons', type: :feature do
   let(:produce_item) do
-    FactoryBot.create(
-      :produce_item, 
-      name: 'morango', 
+    create(
+      :produce_item,
+      name: 'morango',
       category: 'fruit',
-      item_seasons: [FactoryBot.build(:item_season)]
+      item_seasons: [build(:item_season)]
     )
   end
-
-  before { ItemSeason.create(produce_item_id: produce_item.id, month_index: 1, country_code: 'BR') }
 
   it 'visits the item seasons index' do
     visit(item_seasons_path)
