@@ -18,7 +18,7 @@
     <% @item_season_produces.find_each do |produce| %>
       <div class="card">
         <div class="card-inner">
-          <h4 class="produce-name"><%= link_to I18n.t("produce_items.names.#{produce.name}"), produce, class: "link_action produce-name"  %></h4>
+          <h4 class="produce-name"><%= link_to I18n.t("produce_items.names.#{produce.name}"), produce, class: "link_action"  %></h4>
         </div>
           <div class="produce-category"><%= I18n.t("produce_items.categories.#{produce.category}") %></div>
       </div>
