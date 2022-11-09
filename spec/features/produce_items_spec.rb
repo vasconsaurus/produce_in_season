@@ -3,9 +3,9 @@
 require 'rails_helper'
 
 RSpec.describe 'ProduceItems', type: :feature do
-  let!(:produce_item) { ProduceItem.create(name: 'morango', category: 'fruit') }
+  let!(:produce_item) { create(:produce_item) }
 
-  before { ItemSeason.create(produce_item_id: produce_item.id, month_index: 1, country_code: 'BR') }
+  before { create(:item_season, produce_item: produce_item) }
 
   it 'visits the produce items index' do
     visit(produce_items_path)
