@@ -1,11 +1,21 @@
-<h1 class="page__title"> <%= I18n.t('produce_item.index.title') %> </h1>
+<div class="content background-color-blue">
+  <h1 class="page__title banner-small m-bottom-m"> <%= I18n.t('produce_item.index.title') %> </h1>
 
-<table class="produce-table">
-    <% @produce_items.each do |produce|  %>
-      <tr>
-        <td class="produce-table__name"><%= I18n.t("produce_items.names.#{produce.name}").capitalize %></td>
-        <td class="produce-table__category"><%= I18n.t("produce_items.categories.#{produce.category}") %></td>
-        <td class="produce-table__link_action"><%= link_to I18n.t('action.show'), produce, class: "link_action produce_link" %></td>
-      </tr>
+  <div class="nav-actions-holder p-sides-m">
+    <h4><%= link_to I18n.t("action.back").upcase, root_path, class: "link_action back" %></h4>
+  </div>
+
+  <div class="card-holder p-top-l p-bottom-l p-sides-s">
+    <% @produce_items.find_each do |produce| %>
+      <div class="card">
+        <div class="card-inner">
+          <h4 class="produce-name"><%= I18n.t("produce_items.names.#{produce.name}") %></h4>
+          <div class="card-inner__month-name">
+            <%= formatted_month_list(produce) %>
+          </div>
+        </div>
+          <div class="produce-category"><%= I18n.t("produce_items.categories.#{produce.category}") %></div>
+      </div>
     <% end %>
-</table>
+  </div>
+</div>

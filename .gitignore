@@ -34,3 +34,6 @@ coverage/
 
 # Ignore DS Store
 .DS_Store
+
+# Ignore postgres path fix for M1
+libpq.5.dylib

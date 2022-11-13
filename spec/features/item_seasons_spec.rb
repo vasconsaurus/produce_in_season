@@ -3,9 +3,12 @@
 require 'rails_helper'
 
 RSpec.describe 'Item Seasons', type: :feature do
-  let(:produce_item) { ProduceItem.create(name: 'carambola', category: 'fruit') }
-
-  before { ItemSeason.create(produce_item_id: produce_item.id, month_index: 1, country_code: 'br') }
+  before do
+    create(
+      :produce_item,
+      item_seasons: [build(:item_season)]
+    )
+  end
 
   it 'visits the item seasons index' do
     visit(item_seasons_path)
@@ -14,7 +17,7 @@ RSpec.describe 'Item Seasons', type: :feature do
 
   it 'expects index to have a month' do
     visit(item_seasons_path)
-    expect(page).to have_css('div a.link_action')
+    expect(page).to have_css('div a.month_link')
   end
 
   it 'expects the page to have one link per month' do
