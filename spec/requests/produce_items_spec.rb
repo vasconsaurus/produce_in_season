@@ -12,8 +12,8 @@ RSpec.describe 'ProduceItems', type: :request do
 
   describe 'GET /show' do
     it 'returns http success' do
-      produce_item = ProduceItem.create!(name: 'banana', category: 'fruit')
-      get produce_item_path(produce_item.id)
+      produce_item = create(:produce_item)
+      get produce_item_path(produce_item)
       expect(response).to have_http_status(:success)
     end
   end
