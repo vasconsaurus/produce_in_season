@@ -9,12 +9,4 @@ RSpec.describe 'ProduceItems', type: :request do
       expect(response).to have_http_status(:success)
     end
   end
-
-  describe 'GET /show' do
-    it 'returns http success' do
-      produce_item = create(:produce_item)
-      get produce_item_path(produce_item)
-      expect(response).to have_http_status(:success)
-    end
-  end
 end
