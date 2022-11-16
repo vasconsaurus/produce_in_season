@@ -7,7 +7,7 @@
 
   <div class="card-holder p-top-l p-bottom-l p-sides-s">
     <% @produce_items.find_each do |produce| %>
-      <div class="card">
+      <div class="card"  id="<%=produce.name%>">
         <div class="card-inner">
           <h4 class="produce-name"><%= I18n.t("produce_items.names.#{produce.name}") %></h4>
           <div class="card-inner__month-name">

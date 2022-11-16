@@ -1,5 +1,6 @@
 .card {
   display: flex;
+  scroll-margin-top: 11.5rem;
 }
 
 .card-inner {
