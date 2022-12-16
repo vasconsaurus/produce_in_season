@@ -8,11 +8,11 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 require 'csv'
-require 'database_cleaner/active_record'
+# require 'database_cleaner/active_record'
 
-DatabaseCleaner.strategy = :truncation
+# DatabaseCleaner.strategy = :truncation
 
-DatabaseCleaner.clean
+# DatabaseCleaner.clean
 
 CSV.foreach(Rails.root.join('lib/produce.csv'), headers: true) do |row|
   item = ProduceItem.find_or_create_by!(name: row[0], category: row[1])

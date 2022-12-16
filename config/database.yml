@@ -84,4 +84,4 @@ test:
 #
 production:
   <<: *default
-  database: produce_in_season_production
+  url: <%= ENV['DATABASE_URL'] %>
