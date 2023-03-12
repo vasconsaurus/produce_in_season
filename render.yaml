@@ -1,0 +1,20 @@
+databases:
+  - name: produce_in_season
+    databaseName: produce_in_season
+    user: produce_in_season
+    plan: free
+
+services:
+  - type: web
+    name: produce_in_season
+    env: ruby
+    plan: free
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "bundle exec puma -C config/puma.rb"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: produce_in_season
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
